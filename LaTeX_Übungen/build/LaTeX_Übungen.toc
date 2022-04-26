@@ -1,0 +1,40 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {chapter}{\numberline {1}Übungen und Beispiele}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}\LaTeX -Dokumente}{3}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Übung 1}{3}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Übung 2}{3}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Formeln und mathematische Ausdrücke}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Übung 1}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Übung 2}{3}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Übung 3}{3}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Übung 4}{4}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}Übung 5}{4}{subsection.1.2.5}%
+\contentsline {subsection}{\numberline {1.2.6}Übung 10}{4}{subsection.1.2.6}%
+\contentsline {subsection}{\numberline {1.2.7}Übung 11}{4}{subsection.1.2.7}%
+\contentsline {section}{\numberline {1.3}TikZ-Zeichnungen}{5}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Übung 1}{5}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Übung 2}{5}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Übung 3}{5}{subsection.1.3.3}%
+\contentsline {section}{\numberline {1.4}TikZ/PGF-Funktionsplots}{5}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Übung 1}{6}{subsection.1.4.1}%
+\contentsline {section}{\numberline {1.5}Funktionsplots mit Matplotlib (Python)}{6}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Übung 1.5.1}{6}{subsection.1.5.1}%
+\contentsline {section}{\numberline {1.6}CircuiTikZ-Zeichnungen}{6}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Übung 1.6.1}{6}{subsection.1.6.1}%
+\contentsline {chapter}{\numberline {2}Lösungsvorschläge}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}\LaTeX -Dokumente}{8}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Übung 1}{8}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}Formeln und mathematische Ausdrücke}{8}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Übung 2.2.1}{8}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Übung 2.2.2}{8}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Übung 2.2.3}{8}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Übung 2.2.4}{9}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Übung 10}{9}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}Übung 11}{9}{subsection.2.2.6}%
+\contentsline {section}{\numberline {2.3}TikZ-Zeichnungen}{9}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Übung 1}{9}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.4}TikZ/PGF-Funktionsplots}{10}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Übung 1}{10}{subsection.2.4.1}%
+\contentsline {section}{\numberline {2.5}CircuitTikZ-Zeichnungen}{10}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Übung 1}{10}{subsection.2.5.1}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

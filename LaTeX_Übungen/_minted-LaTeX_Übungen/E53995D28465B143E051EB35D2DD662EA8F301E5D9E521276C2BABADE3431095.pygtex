@@ -1,0 +1,41 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}circuitikz\PYG{n+nb}{\PYGZcb{}}[straight voltages]
+\PYG{k}{\PYGZbs{}ctikzset}\PYG{n+nb}{\PYGZob{}}resistors/scale=0.7, capacitors/scale=0.6, diodes/scale=0.7\PYG{n+nb}{\PYGZcb{}}
+
+\PYG{k}{\PYGZbs{}coordinate} (n00) at (0,0);
+
+\PYG{k}{\PYGZbs{}draw} (n00) to [short, \PYGZhy{}o] ++(\PYGZhy{}1,0) node [anchor=east] \PYG{n+nb}{\PYGZob{}}\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{U\PYGZus{}}\PYG{l+m}{0}\PYG{o}{=}\PYG{l+s}{\PYGZdl{}} \PYG{k}{\PYGZbs{}SI}\PYG{n+nb}{\PYGZob{}}12\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYG{k}{\PYGZbs{}V}\PYG{n+nb}{\PYGZcb{}\PYGZcb{}};
+
+\PYG{k}{\PYGZbs{}draw} (n00) \PYGZhy{}\PYGZhy{} ++(2,0) coordinate (n01)
+to [R=\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{R\PYGZus{}E}\PYG{l+s}{\PYGZdl{}}] ++(0,\PYGZhy{}2) coordinate (n02) node [pnp, anchor=E] (pnp) \PYG{n+nb}{\PYGZob{}\PYGZcb{}};
+
+\PYG{k}{\PYGZbs{}draw} (n00) to [led] (pnp.B \PYGZhy{}| n00) coordinate (n03)
+to [short, *\PYGZhy{}] (pnp.B);
+
+\PYG{k}{\PYGZbs{}draw} (n03) to [R=\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{R\PYGZus{}}\PYG{l+m}{1}\PYG{l+s}{\PYGZdl{}}] ++(0,\PYGZhy{}3) coordinate (n04)
+to [short] ++(6,0) coordinate (n05)
+node [rground] (GND) \PYG{n+nb}{\PYGZob{}\PYGZcb{}};
+
+\PYG{k}{\PYGZbs{}draw} (n05 |\PYGZhy{} pnp.C) node [npn, anchor=center] (npn) \PYG{n+nb}{\PYGZob{}\PYGZcb{}};
+\PYG{k}{\PYGZbs{}draw} (n05) to [short, *\PYGZhy{}] (npn.E);
+\PYG{k}{\PYGZbs{}draw} (pnp.C) to [ammeter, i=\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{I\PYGZus{}B}\PYG{l+s}{\PYGZdl{}}] (npn.B);
+
+\PYG{k}{\PYGZbs{}draw} (npn.C) to [short, *\PYGZhy{}] ++(2,0) coordinate (tmp1)
+to [voltmeter, v=\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{U\PYGZus{}\PYGZob{}CE\PYGZcb{}}\PYG{l+s}{\PYGZdl{}}, \PYGZhy{}*] (n05 \PYGZhy{}| tmp1);
+
+\PYG{k}{\PYGZbs{}draw} (npn.C) to [ammeter, i\PYGZlt{}=\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{I\PYGZus{}C}\PYG{l+s}{\PYGZdl{}}] (npn.C |\PYGZhy{} n00)
+to [short] ++(4,0) coordinate (n06)
+to [vsource, v=\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{U\PYGZus{}\PYGZob{}CE\PYGZcb{}}\PYG{l+s}{\PYGZdl{}}, i=\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{I\PYGZus{}\PYGZob{}max\PYGZcb{}}\PYG{l+s}{\PYGZdl{}}] (n06 |\PYGZhy{} n05)
+to [short] (n05);
+
+
+\PYG{c}{\PYGZpc{} LEGENDE}
+\PYG{k}{\PYGZbs{}draw} (n06) ++(1,0) 
+node [right] \PYG{n+nb}{\PYGZob{}}\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{R\PYGZus{}}\PYG{l+m}{1}\PYG{o}{=}\PYG{n+nb}{ }\PYG{n+nv}{\PYGZbs{}SI}\PYG{n+nb}{\PYGZob{}}\PYG{l+m}{220}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYG{n+nv}{\PYGZbs{}ohm}\PYG{n+nb}{\PYGZcb{}}\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{\PYGZcb{}} ++(0,\PYGZhy{}0.5) 
+node [right] \PYG{n+nb}{\PYGZob{}}\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{I\PYGZus{}\PYGZob{}max\PYGZcb{}}\PYG{o}{=}\PYG{n+nb}{ }\PYG{n+nv}{\PYGZbs{}SI}\PYG{n+nb}{\PYGZob{}}\PYG{l+m}{1}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYG{n+nv}{\PYGZbs{}A}\PYG{n+nb}{\PYGZcb{}}\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{\PYGZcb{}};
+
+\PYG{k}{\PYGZbs{}draw} [red] (\PYG{l+s}{\PYGZdl{}}\PYG{o}{(}\PYG{n+nb}{n}\PYG{l+m}{00}\PYG{o}{)}\PYG{n+nb}{ }\PYG{o}{+(\PYGZhy{}}\PYG{l+m}{0}\PYG{n+nb}{.}\PYG{l+m}{5}\PYG{n+nb}{,}\PYG{l+m}{0}\PYG{n+nb}{.}\PYG{l+m}{5}\PYG{o}{)}\PYG{l+s}{\PYGZdl{}}) coordinate (corner1) rectangle (\PYG{l+s}{\PYGZdl{}}\PYG{o}{(}\PYG{n+nb}{n}\PYG{l+m}{02}\PYG{n+nb}{ |}\PYG{o}{\PYGZhy{}}\PYG{n+nb}{ n}\PYG{l+m}{04}\PYG{o}{)}\PYG{n+nb}{ }\PYG{o}{+(}\PYG{l+m}{1}\PYG{n+nb}{,}\PYG{o}{\PYGZhy{}}\PYG{l+m}{0}\PYG{n+nb}{.}\PYG{l+m}{5}\PYG{o}{)}\PYG{l+s}{\PYGZdl{}}) coordinate (corner2)
+(corner1 |\PYGZhy{} corner2) ++(0,\PYGZhy{}0.5) node [anchor=west] \PYG{n+nb}{\PYGZob{}}Konstantstromquelle\PYG{n+nb}{\PYGZcb{}};
+
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}circuitikz\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

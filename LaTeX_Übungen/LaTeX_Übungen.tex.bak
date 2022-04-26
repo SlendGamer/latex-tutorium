@@ -1,0 +1,336 @@
+\documentclass[11pt, oneside, a4paper, titlepage, ngerman]{scrreprt}
+
+\usepackage[top=20mm, bottom=20mm, left=20mm, right=15mm]{geometry}
+\usepackage[onehalfspacing]{setspace}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc} 
+\usepackage{amsmath, amsthm}
+\usepackage{babel}
+
+\setlength{\parindent}{0mm}
+\setlength{\jot}{3mm}
+
+% Schriftarten
+\usepackage{helvet}	
+\usepackage{mathptmx}
+
+% Code Umgebung
+\usepackage{minted}
+\setminted{
+	style=manni,
+	frame=leftline,
+	bgcolor=gray!5,
+	breaklines=true,
+	obeytabs=true, 
+	tabsize=4, 
+	xleftmargin=1cm,
+	fontsize=\footnotesize
+}
+
+\usepackage[
+    type={CC},
+    modifier={by-nc-sa},
+    version={4.0},
+]{doclicense}
+
+\usepackage{xcolor}
+\colorlet{coltheme}{black!60!blue}
+
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks = true,
+	linkcolor = coltheme,
+	urlcolor = coltheme,
+	pdftitle = {LaTeX-Übungen}
+}
+
+\usepackage{float}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\usepackage{tikz}
+\usepackage[siunitx, european]{circuitikz}
+\usetikzlibrary{shapes, arrows}
+
+%% Defines ------------------------------------
+
+\newcommand{\titel}{\LaTeX{}-Übungen}
+\newcommand{\untertitel}{Eine Übungs-Zusammenstellung aus verschiedenen Teilgebieten}
+\newcommand{\autor}{Tim Prüß}
+
+\newcommand{\sol}{Lösung}
+\newcommand{\back}{Zurück zur Aufgabe}
+
+%% ----------------------------------------------
+
+\begin{document}
+
+\setcounter{secnumdepth}{3}		% maximale Nummerierungstiefe fürs Sections (hier max. 1.1.1)
+\setcounter{tocdepth}{3}			% maximale Nummerierungstiefe fürs Inhaltsverzeichnis
+
+\sffamily
+\include{titlepage}
+\pagenumbering{roman}
+\tableofcontents
+
+\pagenumbering{arabic}
+\rmfamily
+
+\chapter{Übungen und Beispiele}
+\label{cha:exercises}
+Die Übungen in diesem Dokument bauen teilweise aufeinander auf.
+
+\section{\LaTeX-Dokumente}
+\label{sec:latex}
+Zunächst können Sie ihr Wissen aus dem Tutorium an einfachen \LaTeX-Dokumenten anwenden. Ich empfehle dazu, das \textit{Cheat-Sheet} zu benutzen. Sollten Sie nicht an dem Tutorium teilgenommen haben empfehle ich zunächst das Dokument \href{http://mirrors.ibiblio.org/CTAN/info/german/LaTeX2e-Kurzbeschreibung/l2kurz.pdf}{\textit{"Docu-l2kurz-german"}} durchzulesen (ca. 60 Seiten) bzw. diverse YouTube-Tutorials anzuschauen.
+
+\subsection{Übung 1}
+\label{sub:latex1}
+Erstellen Sie eine neue \texttt{.tex-Datei} und initialisieren diese. Sie wollen ihre Bachelorarbeit schreiben und benötigen daher die \texttt{chapter}-Umgebung. Die Schriftgröße soll auf \texttt{12pt} festgelegt werden.
+
+\subsection{Übung 2}
+\label{sub:latex2}
+
+\section{Formeln und mathematische Ausdrücke}
+\label{sec:math}
+
+\subsection{Übung 1}
+\label{sub:math1}
+Jeder muss leicht anfangen... (\hyperref[sub:math1_sol]{\sol}) {\large
+\begin{equation}
+	1 + 1 = 2 
+\end{equation} }
+
+
+\subsection{Übung 2}
+\label{sub:math2}
+Standard-Form für quadratische Gleichungen: (\hyperref[sub:math2_sol]{\sol}) {\large
+\begin{equation}
+	\mathrm{ f(x) } = a \cdot x^2 + b \cdot x + c
+\end{equation} }
+
+
+\subsection{Übung 3}
+\label{sub:math3}
+Parallelschaltung von zwei Ohmschen Widerständen: (\hyperref[sub:math3_sol]{\sol}) {\large
+\begin{equation} 
+	\dfrac{1}{R_{ges}} = \dfrac{1}{R_1} + \dfrac{1}{R_2}
+\end{equation}
+
+\begin{align}
+	R_{ges} &= \dfrac{1}{ \dfrac{1}{R_1} + \dfrac{1}{R_2} } = \dfrac{1}{ \dfrac{R_1 + R_2}{R_1 \cdot R_2} } \\
+	R_{ges} &= R_1 \parallel R_2 = \dfrac{R_1 \cdot R_2}{R_1 + R_2}
+\end{align} }
+
+
+\subsection{Übung 4}
+\label{sub:math4}
+Allgemeiner: Der Paralleloperator (\hyperref[sub:math4_sol]{\sol}) {\large
+\begin{equation}
+	x_1 \parallel x_2 = \dfrac{1}{ \dfrac{1}{x_1} + \dfrac{1}{x_2} }
+\end{equation} 
+
+\begin{equation}
+	x_1 \parallel x_2 \parallel x_3 = \dfrac{1}{ \dfrac{1}{x_1} + \dfrac{1}{x_2} + \dfrac{1}{x_3}}
+	= \dfrac{x_1 x_2 x_3}{x_1 x_2 + x_1 x_3 + x_2 x_3}
+\end{equation} 
+
+\begin{equation}
+	x_1 \parallel \dots \parallel x_n = \dfrac{1}{ \dfrac{1}{x_1} + \dots + \dfrac{1}{x_n}}
+	= \dfrac{ \prod \limits _{i=1} ^{n} x_i}{ \sum \limits _{j=1} ^{n} \left[ \dfrac{1}{x_j} \prod \limits _{i=1} ^{n} x_i \right] } 
+\end{equation} }
+
+\subsection{Übung 5}
+\label{sub:math5}
+Exponentialdarstellung einer harmonischen Schwingung: (\hyperref[sub:math5_sol]{\sol}) {\large
+\begin{equation}
+	\mathrm{ \underline{A} } = e^{j \omega t + \varphi_0}
+\end{equation} }
+
+\subsection{Übung 10}
+\label{sub:math10}
+Homogene Differentialgleichung n-ter Ordnung: (\hyperref[sub:math10_sol]{\sol}) {\large
+\begin{equation}
+	\mathrm{a_n \dfrac{d^n x}{dt^n} + a_{n-1} \dfrac{d^{n-1} x}{dt^{n-1}} + \dots + a_{1} \dfrac{dx}{dt} + a_{0} = 0} 
+\end{equation} }
+
+\subsection{Übung 11}
+\label{sub:math11}
+Potenzreihenentwicklung der Exponentialfunktion: (\hyperref[sub:math11_sol]{\sol}) {\large
+\begin{equation}
+	\mathrm{exp}(x) = \sum \limits _{} ^{\infty} a_n \frac{d^n x}{dt^n} + a_{n-1} \frac{d^{n-1} x}{dt^{n-1}} + \dots + a_{1} \frac{dx}{dt} + a_{0} = 0
+\end{equation} }
+\clearpage
+
+\section{TikZ-Zeichnungen}
+\label{sec:tikz}
+
+\subsection{Übung 1}
+\label{sub:tikz1}
+Das Haus vom Nikolaus: (\hyperref[sub:tikz1_sol]{\sol})
+\begin{figure}[H]
+\centering
+	\input{tikz/house_tikz.tex}
+\end{figure}
+\textbf{Zusatz}: Fügen Sie für jeden Punkt des Graphen eine \verb|node[]| hinzu. Jeder Knoten soll dabei aufsteigend numeriert werden (sowohl die Knotenbenennung, als auch in der Grafik sichtbar)
+
+\subsection{Übung 2}
+\label{sub:tikz2}
+Grafische Interpretation des \hyperref[sub:math4]{Paralleloperators}: (\hyperref[sub:tikz2_sol]{\sol})
+\begin{figure}[H]
+\centering
+	\input{tikz/parallel_operator.tex}
+\end{figure}
+
+\subsection{Übung 3}
+\label{sub:tikz3}
+Baumdiagramm: (\hyperref[sub:tikz3_sol]{\sol})
+\begin{figure}[H]
+\centering
+	\input{tikz/tree_tikz.tex}
+\end{figure}
+
+\section{TikZ/PGF-Funktionsplots}
+\label{sec:pgfplots}
+Das Plotten von Funktionen und Datenreihen ist sehr wichtig, wenn man wissenschaftliche Arbeiten schreibt. Ohne die Visualierung von Daten lassen sich, diese nicht effizient analysieren und somit keine konkreten Aussagen über Zusammenhänge, Korrelationen und Kausalitäten machen. In dem Fall hat man nichts weiter als einen Klumpen Zahlen vor sich. Glücklicherweise hat \LaTeX\ eine Möglichkeit, Funktionen und Daten darzustellen, die ihre Vorteile, aber auch Nachteile hat. Es handelt sich dabei um das Packet \textit{pgfplots}.
+
+\subsection{Übung 1}
+\label{sub:pgf1}
+Funktionsplot einer Parabel: (\hyperref[sub:pgf1_sol]{\sol})
+\begin{figure}[H]
+\centering
+	\input{tikz/parabola_pgf.tex}
+\end{figure}
+
+
+\section{Funktionsplots mit Matplotlib (Python)}
+\label{sec:pyplots}
+
+\subsection{Übung \thesubsection}
+\label{sub:pyplt1}
+Funktionsplot einer Parabel: (\hyperref[sub:pyplt1_sol]{\sol})
+\begin{figure}[H]
+\end{figure}
+
+
+\section{CircuiTikZ-Zeichnungen}
+\label{sec:circuitikz}
+
+\subsection{Übung \thesubsection}
+\label{sub:ctikz1}
+(\hyperref[sub:ctikz1_sol]{\sol})
+\begin{figure}[H]
+	\input{tikz/kennlinie.tex}
+\end{figure}
+
+
+
+
+
+\chapter{Lösungsvorschläge}
+\label{cha:solutions}
+
+\section{\LaTeX-Dokumente}
+\label{sec:latex_solutions}
+
+\subsection{Übung 1}
+\label{sub:latex1_sol}
+\begin{minted}[linenos]{tex}
+\documentclass[12pt, a4paper]{report}
+
+\begin{document}
+
+\end{document}
+\end{minted}
+\hyperref[sub:latex1]{\back}
+
+\section{Formeln und mathematische Ausdrücke}
+\label{sec:mathtype_solutions}
+Die nachfolgenden Vorschläge sind lediglich eine Orientierungshilfe. Die Formatierung sollte immer so gewählt werden, dass die Gleichungen auch in TeX gut gelesen werden können, d.h. es sollte immer genügend Abstand zwischen den Symbolen und Befehlen geben. \\
+Für die Code-Darstellung habe ich hier die 'Inline-Form' mit dem \$ -Symbol gewählt. Alternativ ist auch eine Darstellung mit der \textit{begin\{ \}-Umgebung} möglich. Sie verfügt außerdem über eine automatische Nummerierung.
+
+
+\subsection{Übung \thesubsection}
+\label{sub:math1_sol}
+\begin{minted}[linenos]{tex}
+$ 1 + 1 = 2 $
+\end{minted}
+\hyperref[sub:math1]{\back}
+
+
+\subsection{Übung \thesubsection}
+\label{sub:math2_sol}
+\begin{minted}[linenos]{tex}
+$ \mathrm{ f(x) } = a \cdot x^2 + b \cdot x + c $
+\end{minted}
+\hyperref[sub:math2]{\back}
+
+
+\subsection{Übung \thesubsection}
+\label{sub:math3_sol}
+\begin{minted}[linenos]{tex}
+$ \dfrac{1}{R_{ges}} = \dfrac{1}{R_1} + \dfrac{1}{R_2} $
+$ R_{ges} = \dfrac{1}{ \dfrac{1}{R_1} + \dfrac{1}{R_2} } 
+	= \dfrac{1}{ \dfrac{R_1 + R_2}{R_1 \cdot R_2} } $
+$ R_{ges} = R_1 \parallel R_2 = \dfrac{R_1 \cdot R_2}{R_1 + R_2} $
+\end{minted}
+\hyperref[sub:math3]{\back}
+
+
+\subsection{Übung \thesubsection}
+\label{sub:math4_sol}
+\begin{minted}[linenos]{tex}
+% 1.6
+$ x_1 \parallel x_2 = \dfrac{1}{ \dfrac{1}{x_1} + \dfrac{1}{x_2} } $
+
+% 1.7
+$ x_1 \parallel x_2 \parallel x_3 
+= \dfrac{1}{ \dfrac{1}{x_1} + \dfrac{1}{x_2} + \dfrac{1}{x_3}} 
+= \dfrac{x_1 x_2 x_3}{x_1 x_2 + x_1 x_3 + x_2 x_3} $
+
+% 1.8
+$ x_1 \parallel \dots \parallel x_n 
+= \dfrac{1}{ \dfrac{1}{x_1} + \dots + \dfrac{1}{x_n}}
+= \dfrac{ \prod \limits _{i=1} ^{n} x_i}{ \sum \limits _{j=1} ^{n} \left[
+\dfrac{1}{x_j} \prod \limits _{i=1} ^{n} x_i \right] } $
+\end{minted}
+\hyperref[sub:math4]{\back}
+
+
+\subsection{Übung 10}
+\label{sub:math10_sol}
+\hyperref[sub:math10]{\back}
+
+
+\subsection{Übung 11}
+\label{sub:math11_sol}
+\hyperref[sub:math11]{\back}
+
+
+\section{TikZ-Zeichnungen}
+\label{sec:tikz_solutions}
+
+\subsection{Übung 1}
+\label{sub:tikz1_sol}
+\inputminted[linenos]{tex}{tikz/parallel_operator.tex}
+\hyperref[sub:tikz1]{\back}
+
+\section{TikZ/PGF-Funktionsplots}
+\label{sec:pgfplots}
+
+\subsection{Übung 1}
+\label{sub:pgf1_sol}
+\inputminted[linenos]{tex}{tikz/parabola_pgf.tex}
+\hyperref[sub:pgf1]{\back}
+
+\section{CircuitTikZ-Zeichnungen}
+\label{sec:circuitikz_solutions}
+
+\subsection{Übung 1}
+\label{sub:ctikz1_sol}
+\inputminted[linenos]{tex}{tikz/kennlinie.tex}
+\hyperref[sub:ctikz1]{\back}
+
+
+\end{document}

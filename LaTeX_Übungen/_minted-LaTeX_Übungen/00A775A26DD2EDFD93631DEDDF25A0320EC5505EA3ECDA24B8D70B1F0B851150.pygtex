@@ -1,0 +1,25 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tikzpicture\PYG{n+nb}{\PYGZcb{}}
+
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}axis\PYG{n+nb}{\PYGZcb{}}[
+    xmin = \PYGZhy{}5, xmax = 5,
+    ymin = 0, ymax = 10,
+    xtick distance = 2,
+    ytick distance = 2,
+    grid = both,
+    minor tick num = 3,
+    major grid style = \PYG{n+nb}{\PYGZob{}}lightgray\PYG{n+nb}{\PYGZcb{}},
+    minor grid style = \PYG{n+nb}{\PYGZob{}}lightgray!25\PYG{n+nb}{\PYGZcb{}}
+    ]
+    \PYG{k}{\PYGZbs{}addplot}[
+        domain = \PYGZhy{}3:3,
+        samples = 200,
+        smooth,
+        thick,
+        blue,
+    ] \PYG{n+nb}{\PYGZob{}}x\PYG{n+nb}{\PYGZca{}}2\PYG{n+nb}{\PYGZcb{}};
+    \PYG{k}{\PYGZbs{}legend}\PYG{n+nb}{\PYGZob{}}\PYG{l+s}{\PYGZdl{}}\PYG{n+nv}{\PYGZbs{}mathrm}\PYG{n+nb}{\PYGZob{} f}\PYG{o}{(}\PYG{n+nb}{x}\PYG{o}{)}\PYG{n+nb}{ \PYGZcb{} }\PYG{o}{=}\PYG{n+nb}{ x\PYGZca{}}\PYG{l+m}{2}\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}axis\PYG{n+nb}{\PYGZcb{}}
+
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tikzpicture\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

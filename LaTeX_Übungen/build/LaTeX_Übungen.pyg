@@ -1,0 +1,13 @@
+% 1.6
+$ x_1 \parallel x_2 = \dfrac{1}{ \dfrac{1}{x_1} + \dfrac{1}{x_2} } $
+
+% 1.7
+$ x_1 \parallel x_2 \parallel x_3
+= \dfrac{1}{ \dfrac{1}{x_1} + \dfrac{1}{x_2} + \dfrac{1}{x_3}}
+= \dfrac{x_1 x_2 x_3}{x_1 x_2 + x_1 x_3 + x_2 x_3} $
+
+% 1.8
+$ x_1 \parallel \dots \parallel x_n
+= \dfrac{1}{ \dfrac{1}{x_1} + \dots + \dfrac{1}{x_n}}
+= \dfrac{ \prod \limits _{i=1} ^{n} x_i}{ \sum \limits _{j=1} ^{n} \left[
+\dfrac{1}{x_j} \prod \limits _{i=1} ^{n} x_i \right] } $

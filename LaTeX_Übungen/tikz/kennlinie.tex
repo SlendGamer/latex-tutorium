@@ -1,0 +1,39 @@
+\begin{circuitikz}[straight voltages]
+\ctikzset{resistors/scale=0.7, capacitors/scale=0.6, diodes/scale=0.7}
+
+\coordinate (n00) at (0,0);
+
+\draw (n00) to [short, -o] ++(-1,0) node [anchor=east] {$U_0=$ \SI{12}{\V}};
+
+\draw (n00) -- ++(2,0) coordinate (n01)
+to [R=$R_E$] ++(0,-2) coordinate (n02) node [pnp, anchor=E] (pnp) {};
+
+\draw (n00) to [led] (pnp.B -| n00) coordinate (n03)
+to [short, *-] (pnp.B);
+
+\draw (n03) to [R=$R_1$] ++(0,-3) coordinate (n04)
+to [short] ++(6,0) coordinate (n05)
+node [rground] (GND) {};
+
+\draw (n05 |- pnp.C) node [npn, anchor=center] (npn) {};
+\draw (n05) to [short, *-] (npn.E);
+\draw (pnp.C) to [ammeter, i=$I_B$] (npn.B);
+
+\draw (npn.C) to [short, *-] ++(2,0) coordinate (tmp1)
+to [voltmeter, v=$U_{CE}$, -*] (n05 -| tmp1);
+
+\draw (npn.C) to [ammeter, i<=$I_C$] (npn.C |- n00)
+to [short] ++(4,0) coordinate (n06)
+to [vsource, v=$U_{CE}$, i=$I_{max}$] (n06 |- n05)
+to [short] (n05);
+
+
+% LEGENDE
+\draw (n06) ++(1,0) 
+node [right] {$R_1= \SI{220}{\ohm}$} ++(0,-0.5) 
+node [right] {$I_{max}= \SI{1}{\A}$};
+
+\draw [red] ($(n00) +(-0.5,0.5)$) coordinate (corner1) rectangle ($(n02 |- n04) +(1,-0.5)$) coordinate (corner2)
+(corner1 |- corner2) ++(0,-0.5) node [anchor=west] {Konstantstromquelle};
+
+\end{circuitikz}

@@ -1,0 +1,19 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tikzpicture\PYG{n+nb}{\PYGZcb{}}[scale=1.5]
+\PYG{k}{\PYGZbs{}coordinate} (0) at (0,0);
+
+\PYG{k}{\PYGZbs{}draw}\PYG{n+na}{[thick, \PYGZhy{}latex]} 	(0) \PYGZhy{}\PYGZhy{} ++(0,3) coordinate (1);
+\PYG{k}{\PYGZbs{}draw}\PYG{n+na}{[thick]} 		(0) \PYGZhy{}\PYGZhy{} ++(4,0) coordinate (2);
+\PYG{k}{\PYGZbs{}draw}\PYG{n+na}{[thick, \PYGZhy{}latex]} 	(2) \PYGZhy{}\PYGZhy{} ++(0,2) coordinate (3);
+
+\PYG{k}{\PYGZbs{}draw}\PYG{n+na}{[densely dashed, green!70!black]}
+	(1) \PYGZhy{}\PYGZhy{} (2)
+	(0) \PYGZhy{}\PYGZhy{} (3);
+				
+\PYG{k}{\PYGZbs{}node}\PYG{n+na}{[above]} (A) at (1) \PYG{n+nb}{\PYGZob{}}\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{R\PYGZus{}}\PYG{l+m}{1}\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{\PYGZcb{}};
+\PYG{k}{\PYGZbs{}node}\PYG{n+na}{[above]} (B) at (3) \PYG{n+nb}{\PYGZob{}}\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{R\PYGZus{}}\PYG{l+m}{2}\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{\PYGZcb{}};
+\PYG{k}{\PYGZbs{}node}\PYG{n+na}{[above]} (C) at (intersection of 1\PYGZhy{}\PYGZhy{}2 and 0\PYGZhy{}\PYGZhy{}3) \PYG{n+nb}{\PYGZob{}}\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{R\PYGZus{}}\PYG{l+m}{1}\PYG{n+nb}{ }\PYG{n+nv}{\PYGZbs{}parallel}\PYG{n+nb}{ R\PYGZus{}}\PYG{l+m}{2}\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{\PYGZcb{}};
+
+\PYG{k}{\PYGZbs{}draw}\PYG{n+na}{[thick, \PYGZhy{}latex]} (0 \PYGZhy{}| C) \PYGZhy{}\PYGZhy{} (C);
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tikzpicture\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}
