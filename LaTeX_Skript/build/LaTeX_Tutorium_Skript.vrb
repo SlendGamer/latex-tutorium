@@ -1,6 +1,5 @@
 \frametitle{Pakete mit Kurzbeschreibung}
-\begin{description}
-	\item[paket] test
-	%\item[\verb|\usepackage[onehalfspacing]{setspace}|] Verändert den Standardmäßigen Zeilenabstand auf 1,5-fach
-	%\item[\verb|\usepackage{amsmath, amsthm}|] Erweiterung für den Mathematik-Satz
-\end{description}
+\begin{tabular}{ll}
+\texttt{setspace} &  Verändert den Standardmäßigen Zeilenabstand \\
+\texttt{amsmath, amssymb} & Erweiterung für den Mathematik-Satz
+\end{tabular}

@@ -1,0 +1,60 @@
+\chapter{Konzeptentwurf}
+\label{cha:Konzeptentwurf}
+
+\section{Berechnungsansatz}
+\label{sec:Berechnungsansatz}
+Die Prämisse bei der Berechnung des Kabelquerschnittes ist ein maximaler Spannungsverlust am Lautsprecherkabel, bzw. bis hin zum letzten Lautsprecher eines Lautsprecherkreises von maximal n = 10 \% der Verstärkerausgangsspannung. Die Verstärkerausgangsspannung $U_V$ soll 100 V betragen und als spezifischer Widerstand ist Kupfer mit $\rho_{Cu} = 0,01786\,\frac{\Omega\cdot mm^2}{m}$ anzunehmen.
+
+Grundlage für die Berechnung von Kabelquerschnitten ist die Formel zur Berechnung der elektrischen Leistungsaufnahme von ohmschen Verbrauchern.
+\begin{equation}
+P=U\cdot I = \frac{U^2}{R} = R\cdot I^2
+\label{eqn:leistung}
+\end{equation}
+Hieraus ergibt sich für den Strom, der durch den Kabelquerschnitt fließt:
+\begin{equation}
+I = \frac{P_{Lsp}}{U_{Lsp}} = \frac{U_{Kab}}{R_{Kab}}
+\label{eqn:strom}
+\end{equation}
+Der Widerstand des Kabels berechnet sich wie folgt.
+\begin{equation}
+R_{Kab} = \frac{2\cdot\rho_{Cu}\cdot L}{A}
+\label{eqn:widerstand}
+\end{equation}
+Dies lässt sich mit einer Umstellung nach dem Widerstand aus \ref{eqn:strom} gleichsetzen.
+\begin{equation}
+\frac{2\cdot\rho_{Cu}\cdot L}{A} = \frac{U_{Kab}\cdot U_{Lsp}}{P_{Lsp}}
+\label{eqn:gleichsetzung1}
+\end{equation}
+Die Gleichung wird nach der Leitungsfläche A aufgelöst.
+\begin{equation}
+A = \frac{2\cdot P_{Lsp}\cdot \rho_{Cu}\cdot L}{U_{Kab}\cdot U_{Lsp}}
+\label{eqn:flaeche1}
+\end{equation}
+Aus der Prämisse der Kabelquerschnittsplanung gehen folgende Gleichungen hervor.
+\begin{equation}
+U_{Kab} = U_V\cdot\frac{n}{100}
+\label{eqn:spannung1}
+\end{equation}
+\begin{equation}
+U_{Lsp} = U_V\cdot\frac{100-n}{100}\,mit \,n = 10
+\label{eqn:spannung2}
+\end{equation}
+Nun werden \ref{eqn:spannung1} und \ref{eqn:spannung2} in \ref{eqn:flaeche1} eingesetzt.
+\begin{equation}
+A = \frac{2\cdot P_{Lsp}\cdot \rho_{Cu}\cdot L}{U_V^2\cdot\frac{n\cdot(100-n)}{100^2}}
+\label{eqn:flaeche2}
+\end{equation}
+Die Mindestfläche des Kabelquerschnitts ergibt sich also zu:
+\begin{equation}
+A_{min} = \frac{2\cdot 100^2\cdot P_{Lsp}\cdot \rho_{Cu}\cdot L}{U_V^2\cdot n\cdot (100-n)}
+\label{eqn:flaeche3}
+\end{equation}
+Da die Querschnitte von TK-Kabeln als Durchmesser angegeben sind, muss \ref{eqn:flaeche3} nach dem Durchmesser aufgelöst werden.
+\begin{equation}
+d_{min} = \sqrt{\frac{4\cdot A_{min}}{\pi}} = \sqrt{\frac{8\cdot 100^2\cdot P_{Lsp}\cdot \rho_{Cu}\cdot L}{\pi\cdot U_V^2\cdot n\cdot (100-n)}}
+\label{eqn:durchmesser}
+\end{equation}
+
+\section{Benutzeroberfläche}
+\label{sec:Benutzeroberflaeche}
+Die Benutzeroberfläche von Arbeitshilfen, die durch Excel realisiert werden, soll möglichst einfach gehalten und leicht bedienbar sein, sodass der Fachplaner bei der Planung unterstützt wird. Das Excel-Tool soll möglichst selbsterklärend sein, was durch eine Legende mit allen dargestellten Größen und Erklärungsgrafiken zur Verschaltung der Lautsprecher erreicht wird. Weiterhin soll die Möglichkeit bestehen, die berechneten Ergebnisse in einem Dokument, unter Einbindung der verwendeten Berechnungsformeln auszugeben, damit die Planung für andere nachvollziehbar wird.

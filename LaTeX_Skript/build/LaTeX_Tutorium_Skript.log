@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.18)  26 APR 2022 16:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.18)  26 APR 2022 23:48
 entering extended mode
 **./LaTeX_Tutorium_Skript.tex
 (LaTeX_Tutorium_Skript.tex
@@ -786,17 +786,70 @@ Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 \verbatim@line=\toks46
 \verbatim@in@stream=\read4
 )
+(C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2021-09-14 v3.0.30 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen285
+\l__siunitx_angle_marker_box=\box75
+\l__siunitx_angle_unit_box=\box76
+\l__siunitx_compound_count_int=\count328
+
+(C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
+ns.sty
+Package: translations 2021/01/17 v1.10a internationalization of LaTeX2e package
+s (CN)
+)
+\l__siunitx_number_exponent_fixed_int=\count329
+\l__siunitx_number_min_decimal_int=\count330
+\l__siunitx_number_min_integer_int=\count331
+\l__siunitx_number_round_precision_int=\count332
+\l__siunitx_number_group_minimum_int=\count333
+\l__siunitx_table_tmp_box=\box77
+\l__siunitx_table_tmp_dim=\dimen286
+\l__siunitx_table_column_width_dim=\dimen287
+\l__siunitx_table_integer_box=\box78
+\l__siunitx_table_decimal_box=\box79
+\l__siunitx_table_before_box=\box80
+\l__siunitx_table_after_box=\box81
+\l__siunitx_table_before_dim=\dimen288
+\l__siunitx_table_carry_dim=\dimen289
+\l__siunitx_unit_tmp_int=\count334
+\l__siunitx_unit_position_int=\count335
+\l__siunitx_unit_total_int=\count336
+
+(C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
+eys2e.sty
+(C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2021-08-27 L3 programming layer (loader) 
+
+(C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count337
+\l__pdf_internal_box=\box82
+))
+Package: l3keys2e 2021-08-27 LaTeX2e option processing using LaTeX3 keys
+)
+(C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
+\col@sep=\dimen290
+\ar@mcellbox=\box83
+\extrarowheight=\dimen291
+\NC@list=\toks47
+\extratabsurround=\skip64
+\backup@length=\skip65
+\ar@cellbox=\box84
+))
 (C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\helvet.sty
 Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 63.
+Package hyperref Info: Option `colorlinks' set `true' on input line 65.
 
 (C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
 
 (C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count328
+\lrq@indent=\count338
 
 (C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -804,62 +857,62 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 (C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count329
-\c@listtotal=\count330
-\c@listcount=\count331
-\c@liststart=\count332
-\c@liststop=\count333
-\c@citecount=\count334
-\c@citetotal=\count335
-\c@multicitecount=\count336
-\c@multicitetotal=\count337
-\c@instcount=\count338
-\c@maxnames=\count339
-\c@minnames=\count340
-\c@maxitems=\count341
-\c@minitems=\count342
-\c@citecounter=\count343
-\c@maxcitecounter=\count344
-\c@savedcitecounter=\count345
-\c@uniquelist=\count346
-\c@uniquename=\count347
-\c@refsection=\count348
-\c@refsegment=\count349
-\c@maxextratitle=\count350
-\c@maxextratitleyear=\count351
-\c@maxextraname=\count352
-\c@maxextradate=\count353
-\c@maxextraalpha=\count354
-\c@abbrvpenalty=\count355
-\c@highnamepenalty=\count356
-\c@lownamepenalty=\count357
-\c@maxparens=\count358
-\c@parenlevel=\count359
-\blx@tempcnta=\count360
-\blx@tempcntb=\count361
-\blx@tempcntc=\count362
-\blx@maxsection=\count363
-\blx@maxsegment@0=\count364
-\blx@notetype=\count365
-\blx@parenlevel@text=\count366
-\blx@parenlevel@foot=\count367
-\blx@sectionciteorder@0=\count368
-\blx@entrysetcounter=\count369
-\blx@biblioinstance=\count370
-\labelnumberwidth=\skip64
-\labelalphawidth=\skip65
-\biblabelsep=\skip66
-\bibitemsep=\skip67
-\bibnamesep=\skip68
-\bibinitsep=\skip69
-\bibparsep=\skip70
-\bibhang=\skip71
+\c@tabx@nest=\count339
+\c@listtotal=\count340
+\c@listcount=\count341
+\c@liststart=\count342
+\c@liststop=\count343
+\c@citecount=\count344
+\c@citetotal=\count345
+\c@multicitecount=\count346
+\c@multicitetotal=\count347
+\c@instcount=\count348
+\c@maxnames=\count349
+\c@minnames=\count350
+\c@maxitems=\count351
+\c@minitems=\count352
+\c@citecounter=\count353
+\c@maxcitecounter=\count354
+\c@savedcitecounter=\count355
+\c@uniquelist=\count356
+\c@uniquename=\count357
+\c@refsection=\count358
+\c@refsegment=\count359
+\c@maxextratitle=\count360
+\c@maxextratitleyear=\count361
+\c@maxextraname=\count362
+\c@maxextradate=\count363
+\c@maxextraalpha=\count364
+\c@abbrvpenalty=\count365
+\c@highnamepenalty=\count366
+\c@lownamepenalty=\count367
+\c@maxparens=\count368
+\c@parenlevel=\count369
+\blx@tempcnta=\count370
+\blx@tempcntb=\count371
+\blx@tempcntc=\count372
+\blx@maxsection=\count373
+\blx@maxsegment@0=\count374
+\blx@notetype=\count375
+\blx@parenlevel@text=\count376
+\blx@parenlevel@foot=\count377
+\blx@sectionciteorder@0=\count378
+\blx@entrysetcounter=\count379
+\blx@biblioinstance=\count380
+\labelnumberwidth=\skip66
+\labelalphawidth=\skip67
+\biblabelsep=\skip68
+\bibitemsep=\skip69
+\bibnamesep=\skip70
+\bibinitsep=\skip71
+\bibparsep=\skip72
+\bibhang=\skip73
 \blx@bcfin=\read5
 \blx@bcfout=\write5
 \blx@langwohyphens=\language80
-\c@mincomprange=\count371
-\c@maxcomprange=\count372
-\c@mincompwidth=\count373
+\c@mincomprange=\count381
+\c@maxcomprange=\count382
+\c@mincompwidth=\count383
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -868,88 +921,88 @@ File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count374
-\c@savedafterword=\count375
-\c@annotator=\count376
-\c@savedannotator=\count377
-\c@author=\count378
-\c@savedauthor=\count379
-\c@bookauthor=\count380
-\c@savedbookauthor=\count381
-\c@commentator=\count382
-\c@savedcommentator=\count383
-\c@editor=\count384
-\c@savededitor=\count385
-\c@editora=\count386
-\c@savededitora=\count387
-\c@editorb=\count388
-\c@savededitorb=\count389
-\c@editorc=\count390
-\c@savededitorc=\count391
-\c@foreword=\count392
-\c@savedforeword=\count393
-\c@holder=\count394
-\c@savedholder=\count395
-\c@introduction=\count396
-\c@savedintroduction=\count397
-\c@namea=\count398
-\c@savednamea=\count399
-\c@nameb=\count400
-\c@savednameb=\count401
-\c@namec=\count402
-\c@savednamec=\count403
-\c@translator=\count404
-\c@savedtranslator=\count405
-\c@shortauthor=\count406
-\c@savedshortauthor=\count407
-\c@shorteditor=\count408
-\c@savedshorteditor=\count409
-\c@labelname=\count410
-\c@savedlabelname=\count411
-\c@institution=\count412
-\c@savedinstitution=\count413
-\c@lista=\count414
-\c@savedlista=\count415
-\c@listb=\count416
-\c@savedlistb=\count417
-\c@listc=\count418
-\c@savedlistc=\count419
-\c@listd=\count420
-\c@savedlistd=\count421
-\c@liste=\count422
-\c@savedliste=\count423
-\c@listf=\count424
-\c@savedlistf=\count425
-\c@location=\count426
-\c@savedlocation=\count427
-\c@organization=\count428
-\c@savedorganization=\count429
-\c@origlocation=\count430
-\c@savedoriglocation=\count431
-\c@origpublisher=\count432
-\c@savedorigpublisher=\count433
-\c@publisher=\count434
-\c@savedpublisher=\count435
-\c@language=\count436
-\c@savedlanguage=\count437
-\c@origlanguage=\count438
-\c@savedoriglanguage=\count439
-\c@pageref=\count440
-\c@savedpageref=\count441
-\shorthandwidth=\skip72
-\shortjournalwidth=\skip73
-\shortserieswidth=\skip74
-\shorttitlewidth=\skip75
-\shortauthorwidth=\skip76
-\shorteditorwidth=\skip77
-\locallabelnumberwidth=\skip78
-\locallabelalphawidth=\skip79
-\localshorthandwidth=\skip80
-\localshortjournalwidth=\skip81
-\localshortserieswidth=\skip82
-\localshorttitlewidth=\skip83
-\localshortauthorwidth=\skip84
-\localshorteditorwidth=\skip85
+\c@afterword=\count384
+\c@savedafterword=\count385
+\c@annotator=\count386
+\c@savedannotator=\count387
+\c@author=\count388
+\c@savedauthor=\count389
+\c@bookauthor=\count390
+\c@savedbookauthor=\count391
+\c@commentator=\count392
+\c@savedcommentator=\count393
+\c@editor=\count394
+\c@savededitor=\count395
+\c@editora=\count396
+\c@savededitora=\count397
+\c@editorb=\count398
+\c@savededitorb=\count399
+\c@editorc=\count400
+\c@savededitorc=\count401
+\c@foreword=\count402
+\c@savedforeword=\count403
+\c@holder=\count404
+\c@savedholder=\count405
+\c@introduction=\count406
+\c@savedintroduction=\count407
+\c@namea=\count408
+\c@savednamea=\count409
+\c@nameb=\count410
+\c@savednameb=\count411
+\c@namec=\count412
+\c@savednamec=\count413
+\c@translator=\count414
+\c@savedtranslator=\count415
+\c@shortauthor=\count416
+\c@savedshortauthor=\count417
+\c@shorteditor=\count418
+\c@savedshorteditor=\count419
+\c@labelname=\count420
+\c@savedlabelname=\count421
+\c@institution=\count422
+\c@savedinstitution=\count423
+\c@lista=\count424
+\c@savedlista=\count425
+\c@listb=\count426
+\c@savedlistb=\count427
+\c@listc=\count428
+\c@savedlistc=\count429
+\c@listd=\count430
+\c@savedlistd=\count431
+\c@liste=\count432
+\c@savedliste=\count433
+\c@listf=\count434
+\c@savedlistf=\count435
+\c@location=\count436
+\c@savedlocation=\count437
+\c@organization=\count438
+\c@savedorganization=\count439
+\c@origlocation=\count440
+\c@savedoriglocation=\count441
+\c@origpublisher=\count442
+\c@savedorigpublisher=\count443
+\c@publisher=\count444
+\c@savedpublisher=\count445
+\c@language=\count446
+\c@savedlanguage=\count447
+\c@origlanguage=\count448
+\c@savedoriglanguage=\count449
+\c@pageref=\count450
+\c@savedpageref=\count451
+\shorthandwidth=\skip74
+\shortjournalwidth=\skip75
+\shortserieswidth=\skip76
+\shorttitlewidth=\skip77
+\shortauthorwidth=\skip78
+\shorteditorwidth=\skip79
+\locallabelnumberwidth=\skip80
+\locallabelalphawidth=\skip81
+\localshorthandwidth=\skip82
+\localshortjournalwidth=\skip83
+\localshortserieswidth=\skip84
+\localshorttitlewidth=\skip85
+\localshortauthorwidth=\skip86
+\localshorteditorwidth=\skip87
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -960,19 +1013,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
-\c@textcitecount=\count442
-\c@textcitetotal=\count443
-\c@textcitemaxnames=\count444
-\c@biburlbigbreakpenalty=\count445
-\c@biburlbreakpenalty=\count446
-\c@biburlnumpenalty=\count447
-\c@biburlucpenalty=\count448
-\c@biburllcpenalty=\count449
+\c@textcitecount=\count452
+\c@textcitetotal=\count453
+\c@textcitemaxnames=\count454
+\c@biburlbigbreakpenalty=\count455
+\c@biburlbreakpenalty=\count456
+\c@biburlnumpenalty=\count457
+\c@biburlucpenalty=\count458
+\c@biburllcpenalty=\count459
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count450
+\c@smartand=\count460
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -986,8 +1039,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 (C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
 bx
 File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count451
-\c@bbx:relatedtotal=\count452
+\c@bbx:relatedcount=\count461
+\c@bbx:relatedtotal=\count462
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -1014,24 +1067,24 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 File: biblatex.cfg 
 )) (C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.st
 y
-\lst@mode=\count453
-\lst@gtempboxa=\box75
-\lst@token=\toks47
-\lst@length=\count454
-\lst@currlwidth=\dimen285
-\lst@column=\count455
-\lst@pos=\count456
-\lst@lostspace=\dimen286
-\lst@width=\dimen287
-\lst@newlines=\count457
-\lst@lineno=\count458
-\lst@maxwidth=\dimen288
+\lst@mode=\count463
+\lst@gtempboxa=\box85
+\lst@token=\toks48
+\lst@length=\count464
+\lst@currlwidth=\dimen292
+\lst@column=\count465
+\lst@pos=\count466
+\lst@lostspace=\dimen293
+\lst@width=\dimen294
+\lst@newlines=\count467
+\lst@lineno=\count468
+\lst@maxwidth=\dimen295
 
 (C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count459
-\lst@skipnumbers=\count460
-\lst@framebox=\box76
+\c@lstnumber=\count469
+\lst@skipnumbers=\count470
+\lst@framebox=\box86
 )
 (C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -1071,41 +1124,35 @@ File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count461
-\@quotereset=\count462
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 12
-8.
+\@quotelevel=\count471
+\@quotereset=\count472
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 13
+0.
 (C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
-)
-(C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count463
-\l__pdf_internal_box=\box77
 )
 (C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
 \build\LaTeX_Tutorium_Skript.aux)
 \openout1 = `LaTeX_Tutorium_Skript.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 128.
-LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1145,17 +1192,17 @@ LaTeX Font Info:    ... okay on input line 128.
 (C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count464
-\scratchdimen=\dimen289
-\scratchbox=\box78
-\nofMPsegments=\count465
-\nofMParguments=\count466
-\everyMPshowfont=\toks48
-\MPscratchCnt=\count467
-\MPscratchDim=\dimen290
-\MPnumerator=\count468
-\makeMPintoPDFobject=\count469
-\everyMPtoPDFconversion=\toks49
+\scratchcounter=\count473
+\scratchdimen=\dimen296
+\scratchbox=\box87
+\nofMPsegments=\count474
+\nofMParguments=\count475
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count476
+\MPscratchDim=\dimen297
+\MPnumerator=\count477
+\makeMPintoPDFobject=\count478
+\everyMPtoPDFconversion=\toks50
 )
 (C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -1167,7 +1214,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 128.
+Package hyperref Info: Link coloring ON on input line 130.
 
 (C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1179,11 +1226,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count470
+\c@section@level=\count479
 )
-LaTeX Info: Redefining \ref on input line 128.
-LaTeX Info: Redefining \pageref on input line 128.
-LaTeX Info: Redefining \nameref on input line 128.
+LaTeX Info: Redefining \ref on input line 130.
+LaTeX Info: Redefining \pageref on input line 130.
+LaTeX Info: Redefining \nameref on input line 130.
 
 (C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
 \build\LaTeX_Tutorium_Skript.out)
@@ -1193,47 +1240,47 @@ LaTeX Info: Redefining \nameref on input line 128.
 \openout6 = `LaTeX_Tutorium_Skript.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 128.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 130.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 128.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 130.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 128.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 128.
+(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 130.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 130.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/phv/b/n on input line 128.
+(Font)                  OT1/cmr/bx/n --> T1/phv/b/n on input line 130.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/phv/b/n on input line 128.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 128.
+(Font)                  OT1/cmr/bx/n --> T1/phv/b/n on input line 130.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 130.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 128.
+(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 130.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 128.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 128.
+(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 130.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 130.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 128.
+(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 130.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 128.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 128.
+(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 130.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 130.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 128.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 130.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 128.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 130.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 128.
+(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 130.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 128.
+(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 130.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 128.
+(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 130.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/phv/b/n --> T1/phv/b/n on input line 128.
+(Font)                  T1/phv/b/n --> T1/phv/b/n on input line 130.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 128.
+(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 130.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 128.
+(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 130.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 128.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 130.
 
 (C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-b
 asic-dictionary-English.dict
@@ -1259,6 +1306,13 @@ Dictionary: translator-numbers-dictionary, Language: English
 heorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
+(C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
+slations-basic-dictionary-german.trsl
+File: translations-basic-dictionary-german.trsl (german translation file `trans
+lations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `german'. on input line 130.
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
 
@@ -1281,9 +1335,6 @@ Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 Package biblatex Info: Document encoding is UTF8 ....
- (C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2021-08-27 L3 programming layer (loader) 
-)
 Package biblatex Info: ... and expl3
 (biblatex)             2021-08-27 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
@@ -1304,48 +1355,44 @@ Package biblatex Info: ... file 'LaTeX_Tutorium_Skript.bbl' found.
 
 (C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
 \build\LaTeX_Tutorium_Skript.bbl)
-Package biblatex Info: Reference section=0 on input line 128.
-Package biblatex Info: Reference segment=0 on input line 128.
-\c@lstlisting=\count471
+Package biblatex Info: Reference section=0 on input line 130.
+Package biblatex Info: Reference segment=0 on input line 130.
+\c@lstlisting=\count480
 
 (C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
 \build\LaTeX_Tutorium_Skript.nav)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 128
+LaTeX Font Info:    Trying to load font information for U+msa on input line 130
 .
 
 (C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 128
+LaTeX Font Info:    Trying to load font information for U+msb on input line 130
 .
 
 (C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 128.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 130.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 128.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 130.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 133.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 135.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 133.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 135.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 133.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 135.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 133.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 135.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 133.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 135.
 
 [1
 
 {C:/Users/timpr/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 (C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
-\build\LaTeX_Tutorium_Skript.toc)
-Overfull \vbox (81.71002pt too high) detected at line 138
- []
-
-[2
+\build\LaTeX_Tutorium_Skript.toc) [2
 
 ] [3
 
@@ -1391,7 +1438,7 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 (C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
 \build\LaTeX_Tutorium_Skript.vrb
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 5.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 4.
 ) [13
 
 ]
@@ -1474,11 +1521,11 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
 \build\LaTeX_Tutorium_Skript.vrb) [25
 
 ]
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <20.74> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 401.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 401.
- [26
+\openout4 = `LaTeX_Tutorium_Skript.vrb'.
+
+
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+\build\LaTeX_Tutorium_Skript.vrb) [26
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
@@ -1492,9 +1539,15 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 
 
 (C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
-\build\LaTeX_Tutorium_Skript.vrb) [28
+\build\LaTeX_Tutorium_Skript.vrb
+<images/harold_stock.jpg, id=861, 843.15pt x 562.1pt>
+File: images/harold_stock.jpg Graphic file (type jpg)
+<use images/harold_stock.jpg>
+Package pdftex.def Info: images/harold_stock.jpg  used on input line 17.
+(pdftex.def)             Requested size: 86.62099pt x 57.73997pt.
+) [28
 
-]
+ <./images/harold_stock.jpg>]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
@@ -1529,16 +1582,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 (C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
 \build\LaTeX_Tutorium_Skript.vrb) [33
 
-]
-\openout4 = `LaTeX_Tutorium_Skript.vrb'.
-
-
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
-\build\LaTeX_Tutorium_Skript.vrb)
-Overfull \vbox (0.52263pt too high) detected at line 584
- []
-
-[34
+] [34
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
@@ -1554,14 +1598,21 @@ Overfull \vbox (0.52263pt too high) detected at line 584
 (C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
 \build\LaTeX_Tutorium_Skript.vrb) [36
 
-] [37
+]
+\openout4 = `LaTeX_Tutorium_Skript.vrb'.
+
+
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+\build\LaTeX_Tutorium_Skript.vrb) [37
+
+] [38
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
 (C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
-\build\LaTeX_Tutorium_Skript.vrb) [38
+\build\LaTeX_Tutorium_Skript.vrb) [39
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
@@ -1570,15 +1621,8 @@ Overfull \vbox (0.52263pt too high) detected at line 584
 (C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
 \build\LaTeX_Tutorium_Skript.vrb)
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 752.
- [39
-
-]
-\openout4 = `LaTeX_Tutorium_Skript.vrb'.
-
-
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
-\build\LaTeX_Tutorium_Skript.vrb) [40
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 858.
+ [40
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
@@ -1615,14 +1659,14 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <14.4> not available
 (C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
 \build\LaTeX_Tutorium_Skript.vrb) [45
 
-] [46
-
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
 (C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
-\build\LaTeX_Tutorium_Skript.vrb) [47
+\build\LaTeX_Tutorium_Skript.vrb) [46
+
+] [47
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
@@ -1631,14 +1675,14 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <14.4> not available
 (C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
 \build\LaTeX_Tutorium_Skript.vrb) [48
 
-] [49
-
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
 (C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
-\build\LaTeX_Tutorium_Skript.vrb) [50
+\build\LaTeX_Tutorium_Skript.vrb) [49
+
+] [50
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
@@ -1654,20 +1698,35 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <14.4> not available
 (C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
 \build\LaTeX_Tutorium_Skript.vrb) [52
 
-] [53
+]
+\openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
-] [54
 
-] [55
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+\build\LaTeX_Tutorium_Skript.vrb) [53
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
 (C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
-\build\LaTeX_Tutorium_Skript.vrb) [56
+\build\LaTeX_Tutorium_Skript.vrb) [54
 
-] [57
+]
+\openout4 = `LaTeX_Tutorium_Skript.vrb'.
+
+
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+\build\LaTeX_Tutorium_Skript.vrb) [55
+
+] [56
+
+]
+\openout4 = `LaTeX_Tutorium_Skript.vrb'.
+
+
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+\build\LaTeX_Tutorium_Skript.vrb) [57
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
@@ -1677,6 +1736,18 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <14.4> not available
 \build\LaTeX_Tutorium_Skript.vrb) [58
 
 ] [59
+
+]
+\openout4 = `LaTeX_Tutorium_Skript.vrb'.
+
+
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+\build\LaTeX_Tutorium_Skript.vrb)
+Overfull \hbox (9.63599pt too wide) in paragraph at lines 2--1094
+[][]  
+ []
+
+[60
 
 ]
 \tf@nav=\write7
@@ -1691,43 +1762,58 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <14.4> not available
 
 (C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
 \build\LaTeX_Tutorium_Skript.aux)
-Package rerunfilecheck Info: File `LaTeX_Tutorium_Skript.out' has not changed.
-(rerunfilecheck)             Checksum: EEB712E9FE5052B9DA63AE822756DF4F;5335.
+
+Package rerunfilecheck Warning: File `LaTeX_Tutorium_Skript.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `LaTeX_Tutorium_Skript.out':
+(rerunfilecheck)             Before: A1B6D7F08654C63882138DB84A26C13A;1291
+(rerunfilecheck)             After:  36A21DA067AF51A15C3DEEB8A352E15D;1056.
 Package logreq Info: Writing requests to 'LaTeX_Tutorium_Skript.run.xml'.
 \openout1 = `LaTeX_Tutorium_Skript.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32684 strings out of 478927
- 612708 string characters out of 2852534
- 1438457 words of memory out of 3000000
- 49680 multiletter control sequences out of 15000+600000
- 503951 words of font info for 143 fonts, out of 8000000 for 9000
+ 35984 strings out of 478927
+ 714299 string characters out of 2852534
+ 1513718 words of memory out of 3000000
+ 52946 multiletter control sequences out of 15000+600000
+ 497246 words of font info for 129 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  128i,19n,124p,756b,2374s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-sup
-er-t1.enc}{C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r
-.enc}<C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmex10.pfb><C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmmi10.pfb><C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmmi6.pfb><C:/Users/timpr/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/timpr/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/timpr/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/timpr/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/timp
-r/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Us
-ers/timpr/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt0800.pf
-b><C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sft
-t0900.pfb><C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-s
-uper/sftt1095.pfb><C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/cm-super/sftt1440.pfb><C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/urw/helvetic/uhvb8a.pfb><C:/Users/timpr/AppData/Local/Programs/MiKTeX/font
-s/type1/urw/helvetic/uhvr8a.pfb><C:/Users/timpr/AppData/Local/Programs/MiKTeX/f
-onts/type1/urw/helvetic/uhvro8a.pfb>
+pdfTeX warning (dest): name{Navigation61} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.11} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.10} has been referenced but does not exist
+, replaced by a fixed one
+
+{C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super
+-t1.enc}{C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.e
+nc}<C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmex10.pfb><C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmmi10.pfb><C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmmi6.pfb><C:/Users/timpr/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/timpr/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/timpr/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/timpr/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/timpr/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/User
+s/timpr/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt0800.pfb>
+<C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt0
+900.pfb><C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-sup
+er/sftt1095.pfb><C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/cm-super/sftt1440.pfb><C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/urw/helvetic/uhvb8a.pfb><C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/
+type1/urw/helvetic/uhvr8a.pfb><C:/Users/timpr/AppData/Local/Programs/MiKTeX/fon
+ts/type1/urw/helvetic/uhvro8a.pfb>
 Output written on C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tuto
-rium\LaTeX_Skript\build\LaTeX_Tutorium_Skript.pdf (59 pages, 666651 bytes).
+rium\LaTeX_Skript\build\LaTeX_Tutorium_Skript.pdf (60 pages, 695232 bytes).
 PDF statistics:
- 1984 PDF objects out of 2073 (max. 8388607)
- 166 named destinations out of 1000 (max. 500000)
- 395 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1916 PDF objects out of 2073 (max. 8388607)
+ 171 named destinations out of 1000 (max. 500000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

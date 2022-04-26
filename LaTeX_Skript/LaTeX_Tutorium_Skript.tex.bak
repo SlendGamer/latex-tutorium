@@ -25,19 +25,20 @@
   {\Large\color{coltheme!90}\bfseries#1}
   \par\smallskip}
 
-% Einfügen einer Titelseite vor jeder neuen Section
+% Einfügen einer Titelfolie vor jeder neuen Section
 \AtBeginSection[]{
-	\begin{frame}
-	\vfill
+	\begin{frame}%{\insertsectionhead}
+	\vfil
 	\centering
-	{\huge\usebeamercolor[fg]{title}\bfseries\insertsectionhead\par}
-	\vfill
+	{\huge\usebeamercolor[fg]{title}\bfseries\insertsectionhead}
+	%\tableofcontents[subsectionstyle=show/show/hide, sectionstyle=hide/hide]
+	\vfil
 	\end{frame}
 }
 
 % Längen und Abstände festlegen 
 \setlength{\parindent}{0pt} 
-%\setlength{\parskip}{\medskipamount}
+\setlength{\parskip}{0pt}
 
 \setbeamersize{
 text margin left=5mm,
@@ -48,6 +49,7 @@ text margin right=5mm
 \usepackage[T1]{fontenc}
 \usepackage{verbatim}
 \usepackage{amsmath, amssymb, amsfonts}
+\usepackage{siunitx}
 
 % Schriftart
 \usepackage{helvet}
@@ -134,25 +136,28 @@ literate=					% Ermöglicht Umlaute innerhalb von Listing-Umgebungen
 
 %% Inhaltsverzeichnis
 \begin{frame}
-	\tableofcontents[hideallsubsections]
+	\setcounter{tocdepth}{1}
+	\tableofcontents
+	\setcounter{tocdepth}{2}
+	%\setbeamertemplate{sections/subsections in toc}[subsections numbered]
 \end{frame}
 
-%% Beginn Hauptteil
+
+%% Hauptteil
 \section{Einführung}
-\subsection{Was ist \LaTeX{}}
-\begin{frame}{Was ist \LaTeX{}}
+\subsection{Was ist \LaTeX{}?}
+\begin{frame}{Was ist \LaTeX{}?}
 \begin{itemize}
-	\item \TeX{} = Schriftsatzsystem vom Informatik Professor Donald Knuth
-	\item \LaTeX{} = Weiterentwicklung durch Leslie Lamport ($\rightarrow$ \textbf{La}mport \textbf{TeX})
+	\item \TeX{} = Schriftsatzsystem vom Informatik Professor \textit{Donald Knuth}
+	\item \LaTeX{} = Weiterentwicklung durch \textit{Leslie Lamport} ($\Rightarrow$ \textbf{La}mport \textbf{TeX})
 	\item vereinfacht TeX u.a. durch die Benutzung von Makros
-	\item Entwicklung dauert seit den 1990ern an, allerdings werden nur noch kleine Änderungen vorgenommen, weil \LaTeX{} schon \textit{relativ fertig} ist
+	\item Entwicklung dauert seit den 1990ern an, allerdings werden nur noch kleine Änderungen vorgenommen, weil \LaTeX{} schon relativ fertig ist
 \end{itemize}
 \end{frame}
 
 
 \subsection{Vorteile}
-\begin{frame}
-\textbf{Vorteile:}
+\begin{frame}{Vorteile}
 \begin{itemize}
 	\item open-source \& kostenlos
 	\item professionelles Aussehen
@@ -164,9 +169,8 @@ literate=					% Ermöglicht Umlaute innerhalb von Listing-Umgebungen
 \end{frame}
 
 
-\subsection{Schwächen}
-\begin{frame}
-\textbf{Schwächen:}
+\subsection{Nachteile}
+\begin{frame}{Nachteile}
 \begin{itemize}
 	\item ... die gewohnten Arbeitsabläufe funktionieren hier nicht mehr wie bei Word, weil \LaTeX{} kein WYSIWYG-Programm ist!
 	\item Anfangs ist ein mühsames Umdenken nötig, aber je mehr man damit arbeitet, desto einfacher wird es
@@ -207,32 +211,48 @@ Für das spätere Arbeiten eignen sich beide Varianten.
 
 
 \section{Basics}
-\subsection{Grundgerüst}
-\begin{frame}[fragile]{Grundgerüst}
-Jedes \LaTeX{}-Dokument muss mindestens aus folgenden Befehlen bestehen:
-\begin{lstlisting}
-\documentclass{article}
-	% Präambel: Konfiguration des Dokuments
-\begin{document}
-	Hallo Welt! % Dokumentinhalt
-\end{document}
-\end{lstlisting}
-Befehle sind dabei immer so aufgebaut:
-\begin{lstlisting}
-\befehl[option1, opt2, ...]{argument1}{arg2}{...}
-\end{lstlisting}
-\end{frame}
-
-
 \subsection{Leerzeichen}
 \begin{frame}[fragile]{Leerzeichen}
-%\beamheading{Leerzeichen}
-Bei \LaTeX{} ist es völlig egal, wie viele Leerzeichen gesetzt werden. Alles wird wie ein Leerzeichen angesehen. 
+Bei \LaTeX{} ist es völlig egal, wie viele Leerzeichen gesetzt werden. Alles wird wie ein Leerzeichen angesehen. \par\medskip
 \begin{lstlisting}
 Bei \LaTeX{} ist es völlig egal,    wie viele
    Leerzeichen   gesetzt    werden.
 \end{lstlisting}
-Für zusätzliche Abstände gibt es aber Befehle.
+\end{frame}
+
+
+\subsection{Zeilen- \& Seitenwechsel}
+\begin{frame}[fragile]{Zeilen- \& Seitenwechsel}
+Soll ein \textbf{Zeilenwechsel} stattfinden, muss das extra angegeben werden. \\
+Das geht mit \verb|\\|. \par\medskip
+Leerzeilen führen zu einem neuen Absatz. \par\medskip
+Neue \textbf{Absätze} können auch durch \lstinline|\par| eingefügt werden. \par\medskip
+\begin{lstlisting}
+Soll ein Zeilenwechsel
+stattfinden, muss das extra angegeben werden. \\
+Das geht mit \verb|\\|.
+
+Leerzeilen führen zu einem neuen Absatz. \par\medskip
+Neue Absätze können aber auch durch \lstinline|\par| 
+eingefügt werden.
+\end{lstlisting}
+Ein \textbf{Seitenwechsel} wird mit \lstinline|\newpage| oder \lstinline|\clearpage| vollzogen.
+\end{frame}
+
+
+\subsection{Bindestriche}
+\begin{frame}[fragile]{Bindestriche}
+Ein horizontaler Bindestrich kann vielfältig angewendet werden, da seine Länge variabel ist: \par\medskip
+{\footnotesize
+\begin{tabular}{|l|l|l|}
+\hline
+Binde-strich & \verb|Binde-strich| & Für Wörter \\
+6--16 Uhr & \verb|6--16 Uhr| & Für Uhrzeiten \\
+--10 & \verb|--10| & Für Zahlen, aber \verb|$-10$| ist besser \\
+ja -- oder nein & \verb|ja -- oder nein| & \\
+ja --- oder nein & \verb|ja --- oder nein| & \\ \hline
+\end{tabular}
+}
 \end{frame}
 
 
@@ -261,22 +281,20 @@ Zeichen & Bedeutung & Benutzung im Text \\
 \end{frame}
 
 
-\begin{frame}[fragile]{Bindestriche}
-Ein horizontaler Bindestrich kann vielfältig angewendet werden, da seine Länge variabel ist: \par\medskip
-{\footnotesize
-\begin{tabular}{|l|l|l|}
-\hline
-Binde-strich & \verb|Binde-strich| & Für Wörter \\
-6--16 Uhr & \verb|6--16 Uhr| & Für Uhrzeiten \\
---10 & \verb|--10| & Für Zahlen, aber \verb|$-10$| ist besser \\
-ja -- oder nein & \verb|ja -- oder nein| & \\
-ja --- oder nein & \verb|ja --- oder nein| & \\ \hline
-\end{tabular}
-}
+\subsection{Kommentare}
+\begin{frame}[fragile]{Kommentare}
+Kommentare können mit dem \texttt{\%}-Zeichen eingefügt werden. \\
+Alles was danach kommt, wird von \LaTeX{} nicht beachtet. \par\medskip
+Es gibt \textbf{keine} Blockkommentare. \par\medskip
+\begin{lstlisting}
+% Dies ist ein Kommentar
+%%%%% Die Anzahl ist egal
+kein Kommentar	% Kommentar % immernoch Kommentar
+\end{lstlisting}
 \end{frame}
 
 
-\subsection{interne Parameter \& Befehle}
+\subsection{interne Parameter}
 \begin{frame}[fragile]{Längenparameter}
 \LaTeX{} hat einige interne Parameter, die das Aussehen des Dokuments bestimmen. Hier sind ein paar wichtige: \par\medskip
 \begin{lstlisting}
@@ -308,21 +326,58 @@ Man kann je nach Situation unterschiedliche Einheiten verwenden: \par\medskip
 \end{frame}
 
 
+\subsection{Abstände}
 \begin{frame}[fragile]{Horizontale Abstände}
-Test
+Mithilfe von \lstinline|\hspace{}| können Abstände eingefügt werden: \par\medskip
+Dies ist ein Abstand von \hspace{2cm} 2cm.
+\begin{lstlisting}
+Dies ist ein Abstand von \hspace{2cm} 2cm.
+\end{lstlisting}
+Mithilfe von \lstinline|\hfill| wird leerer Platz gleichmäßig gefüllt: \par\medskip
+links \hfill rechts \\
+links \hfill mitte \hfill rechts\\
+\begin{lstlisting}
+links \hfill rechts \\
+links \hfill mitte \hfill rechts
+\end{lstlisting}
+Weitere Abstände: \par\medskip
+{\footnotesize
+\begin{tabular}{|l|l|}
+\hline
+\verb|\,| & ca. 1 Leerzeichen \\
+\verb|\;| & ca. 1,5 Leerzeichen \\
+\verb|\quad| & ca. 2 Leerzeichen \\
+\verb|\qquad| & ca. 3 Leerzeichen \\ \hline
+\end{tabular}
+}
 \end{frame}
 
 
 \begin{frame}[fragile]{Vertikale Abstände}
-Test
+Diese werden mit \lstinline|\vspace{}| erzeugt: \par\medskip
+Das sind \\ \vspace{2cm}
+2cm Abstand.
+\begin{lstlisting}
+Das sind \\ \vspace{2cm}
+2cm Abstand.
+\end{lstlisting}
+Weitere Abstände: \par\medskip
+{\footnotesize
+\begin{tabular}{|l|l|}
+\hline
+\verb|\smallskip| & ca. 1/4 Zeilenhöhe \\
+\verb|\medskip| & ca. 1/2 Zeilenhöhe \\
+\verb|\bigskip| & ca. 1 Zeilenhöhe \\
+\verb|\vfill| & analog zu \lstinline|\hfill| \\ \hline
+\end{tabular}
+}
 \end{frame}
 
 
 \subsection{Umgebungen}
 \begin{frame}[fragile]{Umgebungen}
-%\beamheading{Umgebungen}
 Eine Umgebung (\texttt{environment}) muss immer geöffnet \textbf{und} geschlossen werden. \par\medskip
-In die Umgebung kommt dann der Inhalt, der von der Umgebung beeinflusst wird. \par\medskip
+In die Umgebung kommt dann der Inhalt, der von ihr beeinflusst wird. \par\medskip
 \begin{lstlisting}
 \begin{umgebung}[optionen]
 	% dieser Text/Code wird von der Umgebung beeinflusst
@@ -331,23 +386,8 @@ In die Umgebung kommt dann der Inhalt, der von der Umgebung beeinflusst wird. \p
 \end{frame}
 
 
-\subsection{Kommentare}
-\begin{frame}[fragile]{Kommentare}
-%\beamheading{Kommentare}
-Kommentare können mit dem \texttt{\%}-Zeichen eingefügt werden. \\
-Alles was danach kommt, wird von \LaTeX{} nicht beachtet. \par\medskip
-Es gibt \textbf{keine} Blockkommentare. \par\medskip
-\begin{lstlisting}
-% Dies ist ein Kommentar
-%%%%% Die Anzahl ist egal
-kein Kommentar	% Kommentar % immernoch Kommentar
-\end{lstlisting}
-\end{frame}
-
-
 \subsection{Kompilieren}
-\begin{frame}[fragile]
-\beamheading{Dokumente Kompilieren}
+\begin{frame}[fragile]{Dokumente kompilieren}
 Nachdem man sein erstes Test-Dokument geschrieben hat, kann man das Dokument einfach über den Knopf "\textit{PDFLaTeX}"{} kompilieren.
 \begin{lstlisting}
 \documentclass{article}
@@ -358,54 +398,30 @@ Nachdem man sein erstes Test-Dokument geschrieben hat, kann man das Dokument ein
 \end{frame}
 
 
-\section{Textgestaltung}
-\subsection{Textgrößen}
-\begin{frame}[fragile]{Textgrößen}
-Durch verschiedene Größen, können z.B. Überschriften vom restlichen Text getrennt werden. Die Größen werden fast immer automatisch durch \LaTeX{} festgelegt. \par\medskip
-\begin{tabular}{ll}
-\verb|\tiny| & {\tiny Mikroschrift} \\
-\verb|\scriptsize| & {\scriptsize Tiefstellung} \\
-\verb|\footnotesize| & {\footnotesize Fußnoten} \\
-\verb|\small| & {\small klein} \\
-\verb|\normalsize| & {\normalsize normal} \\
-\verb|\large| & {\large groß} \\
-\verb|\Large| & {\Large größer} \\
-\verb|\LARGE| & {\LARGE sehr groß} \\
-\verb|\huge| & {\huge riesig} \\
-\verb|\Huge| & {\Huge sehr riesig}
-\end{tabular}
+\section{Struktur}
+\subsection{Grundgerüst}
+\begin{frame}[fragile]{Grundgerüst}
+\textbf{Jedes} \LaTeX{}-Dokument muss mindestens aus folgenden Befehlen bestehen:
+\begin{lstlisting}
+\documentclass{article}
+	% Präambel: Konfiguration des Dokuments
+\begin{document}
+	Hallo Welt! % Dokumentinhalt
+\end{document}
+\end{lstlisting}
+Befehle sind dabei immer so aufgebaut:
+\begin{lstlisting}
+\befehl[option1, opt2, ...]{argument1}{arg2}{...}
+\end{lstlisting}
 \end{frame}
 
 
-\subsection{Texthervorhebung}
-\begin{frame}[fragile]{Texthervorhebung}
-\begin{tabular}{ll}
-\verb|\textit{}| & \textit{kursiv} (it=italic)\\
-\verb|\textsl{}| & \textsl{angewinkelt} \\
-\verb|\emph{}| & \emph{betont} \quad (da sie nicht wirklich unterscheidbar sind, \\ & würde ich nur \verb|\textit{}| verwenden) \\
-\verb|\textbf{}| & \textbf{fett} \\
-\verb|\textsc{}| & \textsc{kapitälchen} (sc=small caps) \\
-\verb|\textrm{}| & \textrm{serifenschrift} (rm=roman) \\
-\verb|\textsf{}| & \textsf{serifenlos} (sf=serif) \\
-\verb|\texttt{}| & \texttt{schreibmaschine} 
-\end{tabular}
-\end{frame}
-
-
-\subsection{Textausrichtung}
-\begin{frame}[fragile]{Textausrichtung}
-Test
-\end{frame}
-
-
-\section{Strukturierung von \LaTeX{}-Dokumenten}
 \subsection{Präambel}
 \begin{frame}[fragile]{Präambel}
 \begin{itemize}
-	\item Präambel entspricht einer Header-Datei bei C
+	\item Präambel ist ähnlich einer Header-Datei bei C
 	\item befindet sich zwischen \lstinline|\documentclass[]{}| und \lstinline|\begin{document}|
-	\item beinhaltet alle Pakete, die benötigt werden und
-	\item konfiguriert das gesamte Dokument
+	\item beinhaltet alle Pakete, die benötigt werden und konfiguriert das gesamte Dokument
 	\item für die T1000/2000/... existiert eine gute Vorlage
 \end{itemize}
 \end{frame}
@@ -430,6 +446,7 @@ Es gibt noch weitere Abschnitte, aber diese werden sehr selten benutzt und desha
 \begin{frame}[fragile]{Verzeichnisse}
 In \LaTeX{} werden alle Verzeichnisse automatisch beim Kompilieren erstellt.
 \begin{lstlisting}
+\maketitle			% oder \titlepage erzeugt Titelseite
 \tableofcontents 	% Hier wird das Inhaltsverzeichnis erstellt
 \listoffigures 		% Hier wird das Abbildungsverz. erstellt
 \listoftables 		% Hier wird das Tabellenverz. erstellt
@@ -440,11 +457,11 @@ In \LaTeX{} werden alle Verzeichnisse automatisch beim Kompilieren erstellt.
 \subsection{Grafiken}
 \begin{frame}[fragile]{Einfügen von Grafiken}
 \LaTeX{} unterstützt von Haus aus nur \texttt{.eps}-Dateien. \par\medskip
-Mit dem Paket \lstinline|\usepackage{graphicx}| können aber auch \texttt{.jpg}-, \texttt{.png}- und \texttt{.pdf}-Dateien eingebunden werden.
+Mit dem Paket \lstinline|\usepackage{graphicx}| können aber auch \texttt{.jpg}-, \texttt{.png}- und \texttt{.pdf}-Dateien eingebunden werden. \par\medskip
 \begin{lstlisting}
-\includegraphics[width=\textwidth]{images\Bild.png}
+\includegraphics[width=\textwidth]{images/Bild.png}
 % oder
-\includegraphics[scale=0.5]{images\Bild.png}
+\includegraphics[scale=0.5]{images/Bild.png}
 \end{lstlisting}
 Bei der Suche nach Bildern für eine Arbeit sollten möglichst hochauflösende \texttt{jpg}- oder wenn möglich sogar \texttt{pdf}-Dateien verwendet werden, sonst leidet das Aussehen.
 \end{frame}
@@ -452,16 +469,26 @@ Bei der Suche nach Bildern für eine Arbeit sollten möglichst hochauflösende \
 
 \subsection{Abbildungen}
 \begin{frame}[fragile]{Abbildungen}
-Damit noch eine Bildunterschrift eingefügt und später im Text referenziert werden kann, muss die \texttt{figure}-Umgebung benutzt werden: 
+Damit noch eine Bildunterschrift eingefügt und später im Text referenziert werden kann, muss die \texttt{figure}-Umgebung benutzt werden: \par\medskip
+\begin{minipage}{0.55\textwidth}
 \begin{lstlisting}
 \begin{figure}[platzierung]
 	\centering	% Zentriert die Abbildung
-		\includegraphics{images\Bild.png}
+		\includegraphics{images/harold_stock.jpg}
 	\caption{Bildunterschrift}
 	\label{Name} % Referenzmarke
 \end{figure}
 \end{lstlisting}
-
+\end{minipage} \hfill
+%
+\begin{minipage}{0.43\textwidth}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.6\textwidth]{images/harold_stock.jpg}
+	\caption{Dies ist ein Bild}
+\end{figure}
+\end{minipage}
+%
 Für die \texttt{platzierung} gibt es folgende Angaben: (\texttt{float}-Paket nötig!) \par\medskip
 {\footnotesize
 \begin{tabular}{|l|l|}
@@ -529,7 +556,7 @@ Die Spaltenangabe besteht aus folgenden Angaben: \par\medskip
 \end{frame}
 
 
-\begin{frame}[fragile]{Tabellen}
+\begin{frame}[fragile]{}
 Folgende Befehle können in der \texttt{tabular}-Umgebung angewendet werden: \par\medskip
 {\footnotesize
 \begin{tabular}{|c|l|}
@@ -541,7 +568,7 @@ Folgende Befehle können in der \texttt{tabular}-Umgebung angewendet werden: \pa
 \end{tabular}
 }
 
-\beamheading{Beispiele}
+%\beamheading{Beispiele}
 \begin{columns}
 \begin{column}{0.48\textwidth} % Beispiel 1
 \begin{lstlisting}
@@ -565,26 +592,32 @@ Folgende Befehle können in der \texttt{tabular}-Umgebung angewendet werden: \pa
 
 \begin{columns}
 \begin{column}{0.48\textwidth} % Beispiel 1
-{\footnotesize
+%{\footnotesize
+\centering
 \begin{tabular}{rlc}
 	1 & 2 & 3 \\
 	4 & 5 & 6 \\
 	7 & 8 & 9 \\
-\end{tabular} } \end{column}
+\end{tabular} 
+%}
+\end{column}
 
 \begin{column}{0.48\textwidth} % Beispiel 2
-{\footnotesize
+%{\footnotesize
+\centering
 \begin{tabular}{l|c|r||}
 	\hline
 	1 & 2 & 3 \\ \hline
 	4 & 5 & 6 \\ \hline
 	7 & 8 & 9 \\ \hline \hline
-\end{tabular} } \end{column}
+\end{tabular} 
+%} 
+\end{column}
 \end{columns}
 \end{frame}
 
 
-\begin{frame}[fragile]{Tabellen}
+\begin{frame}[fragile]{}
 Ähnlich wie mit der \texttt{figure}-Umgebung kann auch eine Tabelle mit der \texttt{table}-Umgebung dargestellt werden:
 \begin{columns}
 	\begin{column}{0.48\textwidth}
@@ -686,8 +719,81 @@ Es gibt drei verschiedene Listenumgebungen:
 \end{frame}
 
 
+\section{Textgestaltung}
+\subsection{Textgrößen}
+\begin{frame}[fragile]{Textgrößen}
+Durch verschiedene Größen, können z.B. Überschriften vom restlichen Text getrennt werden. Die Größen werden fast immer automatisch durch \LaTeX{} festgelegt. \par\medskip
+\begin{tabular}{ll}
+\verb|\tiny| & {\tiny Mikroschrift} \\
+\verb|\scriptsize| & {\scriptsize Tiefstellung} \\
+\verb|\footnotesize| & {\footnotesize Fußnoten} \\
+\verb|\small| & {\small klein} \\
+\verb|\normalsize| & {\normalsize normal} \\
+\verb|\large| & {\large groß} \\
+\verb|\Large| & {\Large größer} \\
+\verb|\LARGE| & {\LARGE sehr groß} \\
+\verb|\huge| & {\huge riesig} \\
+\verb|\Huge| & {\Huge sehr riesig}
+\end{tabular}
+\end{frame}
+
+
+\subsection{Texthervorhebung}
+\begin{frame}[fragile]{Texthervorhebung}
+\begin{tabular}{ll}
+\verb|\textit{}| & \textit{kursiv} (it=italic)\\
+\verb|\textsl{}| & \textsl{angewinkelt} \\
+\verb|\emph{}| & \emph{betont} \quad (da sie nicht wirklich unterscheidbar sind, \\ & würde ich nur \verb|\textit{}| verwenden) \\
+\verb|\textbf{}| & \textbf{fett} \\
+\verb|\textsc{}| & \textsc{kapitälchen} (sc=small caps) \\
+\verb|\textrm{}| & \textrm{serifenschrift} (rm=roman) \\
+\verb|\textsf{}| & \textsf{serifenlos} (sf=serif) \\
+\verb|\texttt{}| & \texttt{schreibmaschine} 
+\end{tabular}
+\end{frame}
+
+
+\subsection{Textausrichtung}
+\begin{frame}[fragile]{Textausrichtung}
+Text kann folgendermaßen \textbf{zentriert} werden: \par\medskip
+	\begin{minipage}{0.48\textwidth}
+\begin{lstlisting}
+{\centering 
+Dies \\
+ist \\
+zentriert.\\}
+\end{lstlisting}
+	\end{minipage} \hfill
+	\begin{minipage}{0.48\textwidth}
+{\centering 
+Dies \\
+ist \\
+zentriert.\\}
+	\end{minipage}
+%
+	\begin{minipage}{0.48\textwidth}
+\begin{lstlisting}
+\begin{center}
+Dies \\
+ist \\
+zentriert.
+\end{center}
+\end{lstlisting}
+	\end{minipage} \hfill
+	\begin{minipage}{0.48\textwidth}
+\begin{center}
+Dies \\
+ist \\
+zentriert
+\end{center} 
+	\end{minipage}
+Für \textbf{linksbündigen} Text kann \lstinline|\begin{flushleft} ... \end{flushleft}|, \par\medskip
+für \textbf{rechtsbündigen} Text \lstinline|\begin{flushright} ... \end{flushright}| bzw. \lstinline|{\raggedright}| verwendet werden.
+\end{frame}
+
+
 \section{Mathematische Ausdrücke}
-\begin{frame}[fragile]{}
+\begin{frame}[fragile]{Mathematische Ausdrücke}
 Um diese zu benutzen ist das \texttt{amsmath}-Paket nützlich. \par\medskip
 \LaTeX{} unterscheidet zwei Arten der Formeleingabe:
 \begin{itemize}
@@ -776,12 +882,13 @@ Bei nicht gewünschter Nummerierung gilt wieder: \\
 
 
 \subsection{Symbole}
-\label{sub:symb}
 \begin{frame}[fragile]{Symbole}
-Es gibt \textit{sehr} viele Symbole in \LaTeX{}, was es leicht macht den Überblick zu verlieren. Es ist daher nützlich ein \textit{Cheat-Sheet} zu benutzen oder die gewünschten Befehle einfach zu googeln. \par\medskip
-Im \href{https://en.wikibooks.org/wiki/LaTeX/Mathematics}{Wikibooks} (oder \href{https://en.wikipedia.org/wiki/List_of_mathematical_symbols_by_subject}{Wikipedia}) ist eine Liste an Symbolen zu finden. Über \href{http://detexify.kirelabs.org/classify.html}{Detexify} kann ein bestimmtes Symbol auch über Zeichnen gefunden werden.\par\medskip
+Es gibt \textit{sehr} viele Symbole in \LaTeX{}. \par\medskip
 Folgende Symbole können direkt eingegeben werden: \par\medskip
-\verb#+ - = ! / ( ) [ ] < > | ' :#
+\verb#+ - = ! / ( ) [ ] < > | ' :# \par\medskip
+Es ist nützlich ein \textit{Cheat-Sheet} zu benutzen oder die gewünschten Befehle einfach zu googeln.
+Im \href{https://en.wikibooks.org/wiki/LaTeX/Mathematics}{Wikibooks} (oder \href{https://en.wikipedia.org/wiki/List_of_mathematical_symbols_by_subject}{Wikipedia}) ist eine Liste an Symbolen zu finden. \par\medskip
+Über \href{http://detexify.kirelabs.org/classify.html}{Detexify} kann ein bestimmtes Symbol auch über Zeichnen gefunden werden.
 \end{frame}
 
 
@@ -918,17 +1025,17 @@ Die Einträge können über Literatur-Tools, Online oder auch manuell erstellt w
 \end{frame}
 
 
-\section{Besonderheiten}
+\section{Extras}
 \subsection{Einheiten}
 \begin{frame}[fragile]{SI-Einheiten}
-Mithilfe des \texttt{SI}-Pakets können Einheiten konsistent eingegeben werden. \par\medskip
+Mithilfe des \texttt{siunitx}-Pakets können SI-Einheiten eingegeben werden. \par\medskip
 
 \end{frame}
 
 
 \subsection{Abkürzungen}
 \begin{frame}[fragile]{Abkürzungen}
-Test
+Mit dem \texttt{acronym}-Paket können Abkürzungen im Text verwendet werden, aus denen automatisch ein Abkürzungsverzeichnis erstellt wird.
 \end{frame}
 
 
@@ -938,32 +1045,59 @@ Test
 \end{frame}
 
 
+\subsection{Quellcode \& Verbatim}
+\begin{frame}[fragile]{Quellcode}
+Test
+\end{frame}
+
+
+\subsection{Indexverzeichnis}
+\begin{frame}[fragile]{Indexverzeichnis}
+Test
+\end{frame}
+
+
 \section{Hilfsmittel}
 \begin{frame}[fragile]{Wo finde ich Hilfe?}
 \begin{itemize}
-	\item Die Kurzeinführung \href{http://mirrors.ibiblio.org/CTAN/info/german/LaTeX2e-Kurzbeschreibung/l2kurz.pdf}{"Docu-l2kurz-german"} ist ca. 60 Seiten groß und umfasst alle Basics
+	\item Die Kurzeinführung \href{http://mirrors.ibiblio.org/CTAN/info/german/LaTeX2e-Kurzbeschreibung/l2kurz.pdf}{Docu-l2kurz-german} ist ca. 60 Seiten groß und umfasst alle Basics
+	\item Deutsches LaTeX-Wiki: \href{https://golatex.de/wiki/index.php/Hauptseite}{GoLaTeX}
+	\item Mathematische Symbole: \href{https://en.wikibooks.org/wiki/LaTeX/Mathematics}{Wikibooks}
 	\item Google ist dein Freund: Wenn Probleme auftreten, einfach die Fehlermeldung in eine Suchmaschine schmeißen...
-	\item Zusammenstellung der meisten Befehle, mit deutscher Erklärung: \href{http://www.weinelt.de/latex/index.html}{CTAN}
-	\item Diverse Cheat-Sheets erleichtern das Arbeiten und liegen in meinem  \href{https://ctan.org/}{Git-Repo}
 	\item Falls nichts funktioniert, könnt ihr mich unter \verb|pruess.tim-it20@it.dhbw-ravensburg.de| erreichen
 \end{itemize}
 \end{frame}
 
 
+\subsection{wichtige Befehle}
+\begin{frame}[fragile]{wichtige Befehle}
+\begin{tabular}{ll}
+\lstinline|\label{}| & Erstellung von Labeln zur Referenzierung \\
+\lstinline|\ref{}| & Ein Label referenzieren \\
+\lstinline|\pageref{}| & Gibt Seitenzahl zu einer Referenz aus \\
+\lstinline|\cite{}| & Quelle zitieren \\
+\lstinline|\cite{S. x}| & Quellenzitation mit Angabe einer \\ & Seitenzahl ''x'' einfügen \\
+\lstinline|\footnote{}| & Fußnote einfügen \\
+\lstinline|$ $| & Formeleingabe \\
+\lstinline|\nomenclature{a.}{ab}| & Abkürzung a. für ab in das \\ & Abkürzungsverzeichnis aufnehmen \\
+\lstinline|\clearpage| & Umbruch auf neue Seite
+\end{tabular}
+\end{frame}
+
+
 \section{Pakete mit Kurzbeschreibung}
 \begin{frame}[fragile]{Pakete mit Kurzbeschreibung}
-\begin{description}
-	\item[paket] test
-	%\item[\verb|\usepackage[onehalfspacing]{setspace}|] Verändert den Standardmäßigen Zeilenabstand auf 1,5-fach
-	%\item[\verb|\usepackage{amsmath, amsthm}|] Erweiterung für den Mathematik-Satz
-\end{description}
+\begin{tabular}{ll}
+\texttt{setspace} &  Verändert den Standardmäßigen Zeilenabstand \\
+\texttt{amsmath, amssymb} & Erweiterung für den Mathematik-Satz 
+\end{tabular}
 \end{frame}
 
 
-\section*{Literaturverzeichnis}
-\begin{frame}{Literatur}
-\nocite{*}					% Alle Literatureinträge einblenden
-\printbibliography			% Erstellen des Literaturverzeichnisses
-\end{frame}
+%\section*{Literaturverzeichnis}
+%\begin{frame}{Literatur}
+%\nocite{*}					% Alle Literatureinträge einblenden
+%\printbibliography			% Erstellen des Literaturverzeichnisses
+%\end{frame}
 
 \end{document}
