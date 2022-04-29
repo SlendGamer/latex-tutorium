@@ -75,7 +75,7 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {6}{Bibliographie \& Zitieren}{47}{0}{6}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {7}{Extras}{50}{0}{7}
+\beamer@sectionintoc {7}{Zusatz}{50}{0}{7}
 \defcounter {refsection}{0}\relax 
 \beamer@subsectionintoc {7}{1}{Einheiten}{51}{0}{7}
 \defcounter {refsection}{0}\relax 
@@ -85,10 +85,4 @@
 \defcounter {refsection}{0}\relax 
 \beamer@subsectionintoc {7}{4}{Quellcode \& Verbatim}{54}{0}{7}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {7}{5}{Indexverzeichnis}{55}{0}{7}
-\defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {8}{Hilfsmittel}{56}{0}{8}
-\defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {8}{1}{wichtige Befehle}{58}{0}{8}
-\defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {9}{Pakete mit Kurzbeschreibung}{59}{0}{9}

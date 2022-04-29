@@ -1,5 +1,8 @@
-\frametitle{Pakete mit Kurzbeschreibung}
-\begin{tabular}{ll}
-\texttt{setspace} &  Verändert den Standardmäßigen Zeilenabstand \\
-\texttt{amsmath, amssymb} & Erweiterung für den Mathematik-Satz
-\end{tabular}
+\frametitle{Wo finde ich Hilfe?}
+\begin{itemize}
+	\item Die Kurzeinführung \href{http://mirrors.ibiblio.org/CTAN/info/german/LaTeX2e-Kurzbeschreibung/l2kurz.pdf}{Docu-l2kurz-german} ist ca. 60 Seiten groß und umfasst alle Basics
+	\item Deutsches \LaTeX{}-Wiki: \href{https://golatex.de/wiki/index.php/Hauptseite}{GoLaTeX}
+	\item Mathematische Symbole: \href{https://en.wikibooks.org/wiki/LaTeX/Mathematics}{Wikibooks}
+	\item Google ist dein Freund: Wenn Probleme auftreten, einfach die Fehlermeldung in eine Suchmaschine schmeißen...
+	\item Falls nichts funktioniert, könnt ihr mich unter \verb|pruess.tim-it20@it.dhbw-ravensburg.de| erreichen
+\end{itemize}

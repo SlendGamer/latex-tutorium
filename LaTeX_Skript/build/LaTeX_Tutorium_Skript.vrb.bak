@@ -1,0 +1,5 @@
+\frametitle{Pakete mit Kurzbeschreibung}
+\begin{tabular}{ll}
+\texttt{setspace} &  Verändert den Standardmäßigen Zeilenabstand \\
+\texttt{amsmath, amssymb} & Erweiterung für den Mathematik-Satz
+\end{tabular}
