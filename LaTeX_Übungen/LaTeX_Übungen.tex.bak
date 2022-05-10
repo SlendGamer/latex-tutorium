@@ -1,19 +1,38 @@
 \documentclass[11pt, oneside, a4paper, titlepage, ngerman]{scrreprt}
 
-\usepackage[top=20mm, bottom=20mm, left=20mm, right=15mm]{geometry}
-\usepackage[onehalfspacing]{setspace}
-
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc} 
-\usepackage{amsmath, amsthm}
+\usepackage{amsmath}
 \usepackage{babel}
+
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{setspace}
+\setstretch{1.15}
 
 \setlength{\parindent}{0mm}
 \setlength{\jot}{3mm}
 
+\RedeclareSectionCommand[
+  %runin=false,
+  afterindent=false,
+  beforeskip=\baselineskip,
+  afterskip=\baselineskip]{chapter}
+% für Sections
+\RedeclareSectionCommand[
+  %runin=false,
+  afterindent=false,
+  beforeskip=.8\baselineskip,
+  afterskip=.8\baselineskip]{section}
+% für Subsections
+\RedeclareSectionCommand[
+  %runin=false,
+  afterindent=false,
+  beforeskip=.6\baselineskip,
+  afterskip=.6\baselineskip]{subsection}
+
 % Schriftarten
 \usepackage{helvet}	
-\usepackage{mathptmx}
+%\usepackage{mathptmx}
 
 % Code Umgebung
 \usepackage{minted}
@@ -83,14 +102,18 @@ Die Übungen in diesem Dokument bauen teilweise aufeinander auf.
 
 \section{\LaTeX-Dokumente}
 \label{sec:latex}
-Zunächst können Sie ihr Wissen aus dem Tutorium an einfachen \LaTeX-Dokumenten anwenden. Ich empfehle dazu, das \textit{Cheat-Sheet} zu benutzen. Sollten Sie nicht an dem Tutorium teilgenommen haben empfehle ich zunächst das Dokument \href{http://mirrors.ibiblio.org/CTAN/info/german/LaTeX2e-Kurzbeschreibung/l2kurz.pdf}{\textit{"Docu-l2kurz-german"}} durchzulesen (ca. 60 Seiten) bzw. diverse YouTube-Tutorials anzuschauen.
+Zunächst können Sie ihr Wissen aus dem Tutorium an einfachen \LaTeX{}-Dokumenten anwenden. Ich empfehle dazu, die beiliegenden bzw. in der Beschreibung (\texttt{README.md}) oder im Skript aufgelisteten Hilfsmittel zu benutzen. Falls etwas nicht geht, \textit{googlen} Sie es einfach.
 
 \subsection{Übung 1}
 \label{sub:latex1}
-Erstellen Sie eine neue \texttt{.tex-Datei} und initialisieren diese. Sie wollen ihre Bachelorarbeit schreiben und benötigen daher die \texttt{chapter}-Umgebung. Die Schriftgröße soll auf \texttt{12pt} festgelegt werden.
+Erstellen Sie eine neue \texttt{.tex-Datei} und initialisieren diese für einen Laborbericht (z.B.: \texttt{report}). Die Schriftgröße soll auf \texttt{12pt} festgelegt werden. Es sollen die Pakete \texttt{fontenc} mit der Option \texttt{T1} und \texttt{inputenc} eingebunden werden. (\hyperref[sub:latex1_sol]{\sol})
 
 \subsection{Übung 2}
 \label{sub:latex2}
+Legen Sie zwei Kapitel mit je zwei Abschnitten (diese sollen auch wieder jeweils zwei Unterabschnitte haben). Bitte legen Sie direkt für die \textbf{Abschnitt} eine Referenzmarke an und bezeichnen Sie diese so, dass sie schnell wiedergefunden werden kann. Die Abschnitts-Überschriften müssen übrigens keinen Sinn ergeben. (\hyperref[sub:latex2_sol]{\sol})
+
+\subsection{Übung 3}
+\label{sub:latex3}
 
 \section{Formeln und mathematische Ausdrücke}
 \label{sec:math}
@@ -161,6 +184,15 @@ Potenzreihenentwicklung der Exponentialfunktion: (\hyperref[sub:math11_sol]{\sol
 \begin{equation}
 	\mathrm{exp}(x) = \sum \limits _{} ^{\infty} a_n \frac{d^n x}{dt^n} + a_{n-1} \frac{d^{n-1} x}{dt^{n-1}} + \dots + a_{1} \frac{dx}{dt} + a_{0} = 0
 \end{equation} }
+
+\subsection{Übung 90}
+\label{sub:math90}
+Die Maxwell'schen Gleichungen: (\hyperref[sub:math90_sol]{\sol}) {\large
+\begin{equation}\mathrm{
+	rot \vec{H} = \vec{J_{V}} + \frac{\partial D}{\partial t}
+}
+\end{equation} }
+
 \clearpage
 
 \section{TikZ-Zeichnungen}
