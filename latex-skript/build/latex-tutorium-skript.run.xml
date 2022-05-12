@@ -41,13 +41,13 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="0">
+  <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>LaTeX_Tutorium_Skript.bcf</file>
+      <file>latex-tutorium-skript.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>LaTeX_Tutorium_Skript.bbl</file>
+      <file>latex-tutorium-skript.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -61,23 +61,23 @@
       <file>ngerman.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="0">
+  <external package="biblatex" priority="5" active="1">
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>LaTeX_Tutorium_Skript</infile>
+      <infile>latex-tutorium-skript</infile>
     </cmdline>
     <input>
-      <file>LaTeX_Tutorium_Skript.bcf</file>
+      <file>latex-tutorium-skript.bcf</file>
     </input>
     <output>
-      <file>LaTeX_Tutorium_Skript.bbl</file>
+      <file>latex-tutorium-skript.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>LaTeX_Tutorium_Skript.bbl</file>
+      <file>latex-tutorium-skript.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>LaTeX_Tutorium_Skript.bcf</file>
+      <file>latex-tutorium-skript.bcf</file>
     </requires>
     <requires type="editable">
       <file>literatur.bib</file>
