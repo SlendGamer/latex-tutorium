@@ -217,6 +217,13 @@ Für das spätere Arbeiten eignen sich beide Varianten.
 \end{frame}
 
 
+\subsection{Texmaker konfigurieren}
+\begin{frame}{Texmaker konfigurieren}
+Die Konfiguration, sodass man mit der Vorlage arbeiten kann erfolgt entweder manuell... \par\medskip
+oder über die Einbindung einer Konfigurationsdatei, die auf meinem \href{}{Git-Repository} zur Verfügung steht.
+\end{frame}
+
+
 \section{Basics}
 \subsection{Leerzeichen}
 \begin{frame}[fragile]{Leerzeichen}

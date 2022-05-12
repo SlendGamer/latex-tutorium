@@ -25,11 +25,21 @@ Ich habe im Ordner `cheat-sheets` ein paar Cheat-Sheets hinterlegt, allerdings i
 - [LaTeX-Cheat-Sheet](http://wch.github.io/latexsheet/)
 - [LaTeX Einführung](https://tobi.oetiker.ch/lshort/lshort.pdf) (lang)
 
-# Texmaker-Kurzeinführung
+## Texmaker-Kurzeinführung
 
-Wenn man Texmaker frisch installiert hat ist es sinnvoll sich zunächst damit vertraut zu machen. Ich arbeite mich von **Oben nach Unten** und von **Links nach Rechts**
+Wenn man Texmaker frisch installiert hat ist es sinnvoll sich zunächst damit vertraut zu machen.
 
-#### Datei
+### Empfohlene Einstellungen
+
+Ich gehe hier nur auf die allerwichtigsten Änderungen ein, die vorgenommen werden müssen, um meine [Vorlage](https://github.com/SlendGamer/LaTeX_Template.git) zu Verwenden.
+
+Alternativ kann auch **einfach** die `texmaker.ini`, die ich beigelegt habe, in Texmaker eingefügt werden.
+
+Dazu muss man im Reiter `Optionen -> Dateieinstellungen -> Datei der Einstellungen durch eine neue ersetzen` auswählen und die `texmaker.ini` auswählen.
+
+Danach sollte das Programm am besten neu gestartet werden.
+
+### Datei
 
 Ganz links im Reiter `Datei` findet man bekannte Befehle, um Dokumente abzuspeichern. Ein wichtiger Punkt ist jedoch die **Sitzung**.
 
@@ -39,11 +49,11 @@ Wo wir gerade dabei sind: Eine **Masterdatei** kann über den Reiter `Optionen` 
 
 `\documentclass{...} \begin{document} ... \end{document}`
 
-#### Bearbeiten
+### Bearbeiten
 
 Hier sind Befehle, die man fast aus jedem Programm kennt. Wirklich Besonderes gibt es hier nicht, jedoch die **Kommentar / -entfernen** und **Einrücken / Ausrücken** Funktion ist ganz nützlich.
 
-#### Werkzeuge
+### Werkzeuge
 
 LaTeX ist nicht gleich LaTeX! Im Laufe der Jahre haben sich verschiedene Zweige entwickelt, die eine gesonderte Funktion haben. Im Reiter `Werkzeuge` findet man die Shortcuts zum Aufruf dieser.
 
@@ -56,11 +66,15 @@ Hier eine kleine Aufzählung, was die wichtigsten Dienstprogramme machen:
 - `BibTeX`: Erstellung Literaturverzeichnis (muss ggf. mehrmals nacheinander durchlaufen)
 - `MakeIndex`: Erzeugung/Aktualisierung des Index- und Abkürzungsverzeichnisses
 
-#### LaTeX
+### LaTeX
 
-#### Formel
+Hier sind wichtige Befehls-Shortcuts für LaTeX aufgelistet, um z.B. Kapitel einzufügen.
 
-#### Assistenten
+### Formel
+
+Hier sind wichtige Befehls-Shortcuts für mathematische Ausdrücke aufgelistet.
+
+### Assistent
 
 Nach dem ersten Starten wird ein überwiegend leeres Fenster angezeigt. Um eine LaTeX-Datei zu erstellen kann man dies natürlich über den Explorer durch Anlegen einer `.tex-Datei` machen, aber die Benutzeroberfläche von Texmaker bietet einige sog. **Assistenten**, die dies vereinfachen:
 
@@ -74,12 +88,18 @@ Für den Inhalt gibt es folgende weitere Assistenten:
 - Tabulator- und
 - Matrix-Assistent
 
-#### Bibliographie
+### Bibliographie
 
-#### Benutzer/in
+Man kann sich Bibliografie-Einträge natürlich auch Online erstellen lassen, aber wer dies manuell machen möchte, findet hier die entsprechenden Typen für die Quelleneinträge.
 
-#### Ansicht
+### Benutzer/in
 
-#### Knöpfe zum Kompilieren
+Hier können benutzerdefinierte Makros und Befehle aufgerufen werden. Nach der Einbindung der `texmaker.ini` (Empfohlene Einstellungen) finden sich bei `Eigene Befehle`  der Shortcut, um das Literaturverzeichnis und Abkürzungsverzeichnis zu aktualisieren.
 
-## Empfohlene Einstellungen
+### Ansicht
+
+Hier kann eingestellt werden, welche Elemente der Benutzeroberfläche eingeblendet werden sollen.
+
+### Optionen
+
+Hier lässt sich Texmaker konfigurieren und eine **Masterdatei** festlegen.
