@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.18)  12 MAY 2022 15:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.18)  12 MAY 2022 16:05
 entering extended mode
 **./latex-tutorium-skript.tex
 (latex-tutorium-skript.tex
@@ -1138,7 +1138,8 @@ LaTeX Font Info:    Trying to load font information for T1+phv on input line 13
 (C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
-No file latex-tutorium-skript.aux.
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
+\build\latex-tutorium-skript.aux)
 \openout1 = `latex-tutorium-skript.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 137.
@@ -1159,6 +1160,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 137.
 LaTeX Font Info:    ... okay on input line 137.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 137.
 LaTeX Font Info:    ... okay on input line 137.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1236,6 +1238,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 137.
 LaTeX Info: Redefining \pageref on input line 137.
 LaTeX Info: Redefining \nameref on input line 137.
+
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
+\build\latex-tutorium-skript.out)
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
+\build\latex-tutorium-skript.out)
 \@outlinefile=\write6
 \openout6 = `latex-tutorium-skript.out'.
 
@@ -1357,9 +1364,12 @@ No file latex-tutorium-skript.bbl.
 Package biblatex Info: Reference section=0 on input line 137.
 Package biblatex Info: Reference segment=0 on input line 137.
 \c@lstlisting=\count480
-No file latex-tutorium-skript.nav.
+
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
+\build\latex-tutorium-skript.nav)
 LaTeX Font Info:    Trying to load font information for U+msa on input line 137
 .
+
 (C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -1387,8 +1397,8 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
 [1
 
 {C:/Users/timpr/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-No file latex-tutorium-skript.toc.
-[2
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
+\build\latex-tutorium-skript.toc) [2
 
 ] [3
 
@@ -1538,7 +1548,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
 
 (C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\latex-tutorium-skript.vrb
-<images/harold_stock.jpg, id=833, 843.15pt x 562.1pt>
+<images/harold_stock.jpg, id=882, 843.15pt x 562.1pt>
 File: images/harold_stock.jpg Graphic file (type jpg)
 <use images/harold_stock.jpg>
 Package pdftex.def Info: images/harold_stock.jpg  used on input line 17.
@@ -1617,12 +1627,7 @@ Package pdftex.def Info: images/harold_stock.jpg  used on input line 17.
 
 
 (C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
-\build\latex-tutorium-skript.vrb
-
-LaTeX Warning: Reference `eq:pythagoras' on page 41 undefined on input line 21.
-
-
-)
+\build\latex-tutorium-skript.vrb)
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 874.
  [41
@@ -1743,12 +1748,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--25
 
 
 (C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
-\build\latex-tutorium-skript.vrb
-
-LaTeX Warning: Hyper reference `sub:reserved' on page 55 undefined on input lin
-e 2.
-
-) [55
+\build\latex-tutorium-skript.vrb) [55
 
 ]
 \openout4 = `latex-tutorium-skript.vrb'.
@@ -1784,34 +1784,17 @@ LaTeX Font Info:    Font shape `T1/phv/b/it' in size <24.88> not available
 
 (C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\latex-tutorium-skript.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `latex-tutorium-skript.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `latex-tutorium-skript.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  52E3F7EB2A2BF302C254E1B3FB0CA5DD;935.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                latex-tutorium-skript
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `latex-tutorium-skript.out' has not changed.
+(rerunfilecheck)             Checksum: 52E3F7EB2A2BF302C254E1B3FB0CA5DD;935.
 Package logreq Info: Writing requests to 'latex-tutorium-skript.run.xml'.
 \openout1 = `latex-tutorium-skript.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35754 strings out of 478927
- 710479 string characters out of 2852534
- 1513507 words of memory out of 3000000
- 52734 multiletter control sequences out of 15000+600000
+ 36012 strings out of 478927
+ 714112 string characters out of 2852534
+ 1514733 words of memory out of 3000000
+ 52982 multiletter control sequences out of 15000+600000
  502500 words of font info for 133 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  128i,19n,124p,756b,2374s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1836,9 +1819,9 @@ s/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/timpr/AppData/Local/Programs/MiKTeX/
 fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/timpr/AppData/Local/Programs/MiKT
 eX/fonts/type1/urw/helvetic/uhvro8a.pfb>
 Output written on C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tuto
-rium\latex-skript\build\latex-tutorium-skript.pdf (59 pages, 696581 bytes).
+rium\latex-skript\build\latex-tutorium-skript.pdf (59 pages, 702202 bytes).
 PDF statistics:
- 1848 PDF objects out of 2073 (max. 8388607)
+ 1885 PDF objects out of 2073 (max. 8388607)
  166 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 120 words of extra memory for PDF output out of 10000 (max. 10000000)
 
