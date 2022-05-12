@@ -9,11 +9,11 @@ Dieses Tutorium dient zur Vorbereitung auf die ersten Arbeiten bzw. auf die Bach
 
 ## Skript
 
-Die PDF für das Skript liegt im Unterordner `LaTeX_Skript/build`.
+Die PDF für das Skript liegt im Unterordner `latex-skript/build`.
 
 ## Übungsaufgaben
 
-Die PDF für die Übungsaufgaben liegt im Unterordner `LaTeX_Übungen/build`.
+Die PDF für die Übungsaufgaben liegt im Unterordner `latex-uebungen/build`.
 
 ## Hilfsmittel
 
