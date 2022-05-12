@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.18)  29 APR 2022 14:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.18)  12 MAY 2022 15:47
 entering extended mode
 **./LaTeX_Tutorium_Skript.tex
 (LaTeX_Tutorium_Skript.tex
@@ -1138,7 +1138,7 @@ LaTeX Font Info:    Trying to load font information for T1+phv on input line 13
 (C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.aux)
 \openout1 = `LaTeX_Tutorium_Skript.aux'.
 
@@ -1239,9 +1239,9 @@ LaTeX Info: Redefining \ref on input line 137.
 LaTeX Info: Redefining \pageref on input line 137.
 LaTeX Info: Redefining \nameref on input line 137.
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.out)
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.out)
 \@outlinefile=\write6
 \openout6 = `LaTeX_Tutorium_Skript.out'.
@@ -1360,13 +1360,13 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'LaTeX_Tutorium_Skript.bbl' found.
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.bbl)
 Package biblatex Info: Reference section=0 on input line 137.
 Package biblatex Info: Reference segment=0 on input line 137.
 \c@lstlisting=\count480
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.nav)
 LaTeX Font Info:    Trying to load font information for U+msa on input line 137
 .
@@ -1398,7 +1398,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
 [1
 
 {C:/Users/timpr/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.toc) [2
 
 ] [3
@@ -1417,11 +1417,13 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
 
 ] [10
 
+] [11
+
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
 .
@@ -1429,311 +1431,346 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
 (C:\Users\timpr\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ))
-[11
+[12
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
-\build\LaTeX_Tutorium_Skript.vrb) [12
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
+\build\LaTeX_Tutorium_Skript.vrb) [13
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 4.
-) [13
+) [14
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
-\build\LaTeX_Tutorium_Skript.vrb) [14
-
-]
-\openout4 = `LaTeX_Tutorium_Skript.vrb'.
-
-
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb) [15
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb) [16
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb) [17
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb) [18
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb) [19
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb) [20
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb) [21
 
-] [22
+]
+\openout4 = `LaTeX_Tutorium_Skript.vrb'.
+
+
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
+\build\LaTeX_Tutorium_Skript.vrb) [22
+
+] [23
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
-\build\LaTeX_Tutorium_Skript.vrb) [23
-
-]
-\openout4 = `LaTeX_Tutorium_Skript.vrb'.
-
-
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb) [24
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb) [25
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb) [26
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb) [27
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
-\build\LaTeX_Tutorium_Skript.vrb
-<images/harold_stock.jpg, id=848, 843.15pt x 562.1pt>
-File: images/harold_stock.jpg Graphic file (type jpg)
-<use images/harold_stock.jpg>
-Package pdftex.def Info: images/harold_stock.jpg  used on input line 17.
-(pdftex.def)             Requested size: 86.62099pt x 57.73997pt.
-) [28
-
- <./images/harold_stock.jpg>]
-\openout4 = `LaTeX_Tutorium_Skript.vrb'.
-
-
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
-\build\LaTeX_Tutorium_Skript.vrb) [29
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
+\build\LaTeX_Tutorium_Skript.vrb) [28
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
+\build\LaTeX_Tutorium_Skript.vrb
+<images/harold_stock.jpg, id=882, 843.15pt x 562.1pt>
+File: images/harold_stock.jpg Graphic file (type jpg)
+<use images/harold_stock.jpg>
+Package pdftex.def Info: images/harold_stock.jpg  used on input line 17.
+(pdftex.def)             Requested size: 86.62099pt x 57.73997pt.
+) [29
+
+ <./images/harold_stock.jpg>]
+\openout4 = `LaTeX_Tutorium_Skript.vrb'.
+
+
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb) [30
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb) [31
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb) [32
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb) [33
 
-] [34
+]
+\openout4 = `LaTeX_Tutorium_Skript.vrb'.
+
+
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
+\build\LaTeX_Tutorium_Skript.vrb) [34
+
+] [35
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
-\build\LaTeX_Tutorium_Skript.vrb) [35
-
-]
-\openout4 = `LaTeX_Tutorium_Skript.vrb'.
-
-
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb) [36
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb) [37
 
-] [38
+]
+\openout4 = `LaTeX_Tutorium_Skript.vrb'.
+
+
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
+\build\LaTeX_Tutorium_Skript.vrb) [38
+
+] [39
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
-\build\LaTeX_Tutorium_Skript.vrb) [39
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
+\build\LaTeX_Tutorium_Skript.vrb) [40
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb)
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 865.
- [40
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 874.
+ [41
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
-\build\LaTeX_Tutorium_Skript.vrb) [41
-
-]
-\openout4 = `LaTeX_Tutorium_Skript.vrb'.
-
-
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb) [42
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb) [43
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb) [44
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb) [45
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb) [46
 
-] [47
+]
+\openout4 = `LaTeX_Tutorium_Skript.vrb'.
+
+
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
+\build\LaTeX_Tutorium_Skript.vrb) [47
+
+] [48
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
-\build\LaTeX_Tutorium_Skript.vrb) [48
-
-]
-\openout4 = `LaTeX_Tutorium_Skript.vrb'.
-
-
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb) [49
 
-] [50
+]
+\openout4 = `LaTeX_Tutorium_Skript.vrb'.
+
+
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
+\build\LaTeX_Tutorium_Skript.vrb) [50
+
+] [51
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
-\build\LaTeX_Tutorium_Skript.vrb) [51
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
+\build\LaTeX_Tutorium_Skript.vrb
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+
+ []
+
+) [52
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
-\build\LaTeX_Tutorium_Skript.vrb) [52
-
-]
-\openout4 = `LaTeX_Tutorium_Skript.vrb'.
-
-
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb) [53
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb) [54
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.vrb) [55
-
-] [56
 
 ]
 \openout4 = `LaTeX_Tutorium_Skript.vrb'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
-\build\LaTeX_Tutorium_Skript.vrb) [57
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
+\build\LaTeX_Tutorium_Skript.vrb) [56
+
+] [57
+
+]
+\openout4 = `LaTeX_Tutorium_Skript.vrb'.
+
+
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
+\build\LaTeX_Tutorium_Skript.vrb) [58
+
+]
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <24.88> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 1170.
+ [59
 
 ]
 \tf@nav=\write7
@@ -1746,24 +1783,24 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <14.4> not available
 \openout9 = `LaTeX_Tutorium_Skript.snm'.
 
 
-(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tutorium\LaTeX_Skript
+(C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tutorium\latex-skript
 \build\LaTeX_Tutorium_Skript.aux)
 Package rerunfilecheck Info: File `LaTeX_Tutorium_Skript.out' has not changed.
-(rerunfilecheck)             Checksum: A8A89B6A94E78966FA9E28F83000AAD4;872.
+(rerunfilecheck)             Checksum: 52E3F7EB2A2BF302C254E1B3FB0CA5DD;935.
 Package logreq Info: Writing requests to 'LaTeX_Tutorium_Skript.run.xml'.
 \openout1 = `LaTeX_Tutorium_Skript.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35979 strings out of 478927
- 713886 string characters out of 2852534
+ 36030 strings out of 478927
+ 714738 string characters out of 2852534
  1513759 words of memory out of 3000000
- 52956 multiletter control sequences out of 15000+600000
- 497246 words of font info for 129 fonts, out of 8000000 for 9000
+ 52998 multiletter control sequences out of 15000+600000
+ 502500 words of font info for 133 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  128i,19n,124p,756b,2374s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-sup
-er-t1.enc}{C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r
+{C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:
+/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1
 .enc}<C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmex10.pfb><C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmmi10.pfb><C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/type
@@ -1779,12 +1816,13 @@ t0900.pfb><C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-s
 uper/sftt1095.pfb><C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/cm-super/sftt1440.pfb><C:/Users/timpr/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/urw/helvetic/uhvb8a.pfb><C:/Users/timpr/AppData/Local/Programs/MiKTeX/font
-s/type1/urw/helvetic/uhvr8a.pfb><C:/Users/timpr/AppData/Local/Programs/MiKTeX/f
-onts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\LaTeX_Tuto
-rium\LaTeX_Skript\build\LaTeX_Tutorium_Skript.pdf (57 pages, 679031 bytes).
+s/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/timpr/AppData/Local/Programs/MiKTeX/
+fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/timpr/AppData/Local/Programs/MiKT
+eX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on C:\Users\timpr\OneDrive\Studienunterlagen\90_LaTeX\latex-tuto
+rium\latex-skript\build\LaTeX_Tutorium_Skript.pdf (59 pages, 702202 bytes).
 PDF statistics:
- 1818 PDF objects out of 2073 (max. 8388607)
- 160 named destinations out of 1000 (max. 500000)
- 112 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1885 PDF objects out of 2073 (max. 8388607)
+ 166 named destinations out of 1000 (max. 500000)
+ 120 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -11,78 +11,80 @@
 \defcounter {refsection}{0}\relax 
 \beamer@subsectionintoc {1}{4}{Installation}{7}{0}{1}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {2}{Basics}{10}{0}{2}
+\beamer@subsectionintoc {1}{5}{Texmaker konfigurieren}{10}{0}{1}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {2}{1}{Leerzeichen}{11}{0}{2}
+\beamer@sectionintoc {2}{Basics}{11}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {2}{2}{Zeilen- \& Seitenwechsel}{12}{0}{2}
+\beamer@subsectionintoc {2}{1}{Leerzeichen}{12}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {2}{3}{Bindestriche}{13}{0}{2}
+\beamer@subsectionintoc {2}{2}{Zeilen- \& Seitenwechsel}{13}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {2}{4}{Reservierte Zeichen}{14}{0}{2}
+\beamer@subsectionintoc {2}{3}{Bindestriche}{14}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {2}{5}{Kommentare}{15}{0}{2}
+\beamer@subsectionintoc {2}{4}{Reservierte Zeichen}{15}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {2}{6}{interne Parameter}{16}{0}{2}
+\beamer@subsectionintoc {2}{5}{Kommentare}{16}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {2}{7}{Abstände}{18}{0}{2}
+\beamer@subsectionintoc {2}{6}{interne Parameter}{17}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {2}{8}{Umgebungen}{20}{0}{2}
+\beamer@subsectionintoc {2}{7}{Abstände}{19}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {2}{9}{Kompilieren}{21}{0}{2}
+\beamer@subsectionintoc {2}{8}{Umgebungen}{21}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {3}{Struktur}{22}{0}{3}
+\beamer@subsectionintoc {2}{9}{Kompilieren}{22}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {3}{1}{Grundgerüst}{23}{0}{3}
+\beamer@sectionintoc {3}{Struktur}{23}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {3}{2}{Präambel}{24}{0}{3}
+\beamer@subsectionintoc {3}{1}{Grundgerüst}{24}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {3}{3}{Abschnitte}{25}{0}{3}
+\beamer@subsectionintoc {3}{2}{Präambel}{25}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {3}{4}{Verzeichnisse}{26}{0}{3}
+\beamer@subsectionintoc {3}{3}{Abschnitte}{26}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {3}{5}{Grafiken}{27}{0}{3}
+\beamer@subsectionintoc {3}{4}{Verzeichnisse}{27}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {3}{6}{Abbildungen}{28}{0}{3}
+\beamer@subsectionintoc {3}{5}{Grafiken}{28}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {3}{7}{Referenzierung}{29}{0}{3}
+\beamer@subsectionintoc {3}{6}{Abbildungen}{29}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {3}{8}{Tabellen}{30}{0}{3}
+\beamer@subsectionintoc {3}{7}{Referenzierung}{30}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {3}{9}{Listen}{33}{0}{3}
+\beamer@subsectionintoc {3}{8}{Tabellen}{31}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {4}{Textgestaltung}{34}{0}{4}
+\beamer@subsectionintoc {3}{9}{Listen}{34}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {4}{1}{Textgrößen}{35}{0}{4}
+\beamer@sectionintoc {4}{Textgestaltung}{35}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {4}{2}{Texthervorhebung}{36}{0}{4}
+\beamer@subsectionintoc {4}{1}{Textgrößen}{36}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {4}{3}{Textausrichtung}{37}{0}{4}
+\beamer@subsectionintoc {4}{2}{Texthervorhebung}{37}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {5}{Mathematische Ausdrücke}{38}{0}{5}
+\beamer@subsectionintoc {4}{3}{Textausrichtung}{38}{0}{4}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {5}{1}{Gleichungsumgebungen}{40}{0}{5}
+\beamer@sectionintoc {5}{Mathematische Ausdrücke}{39}{0}{5}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {5}{2}{Symbole}{42}{0}{5}
+\beamer@subsectionintoc {5}{1}{Gleichungsumgebungen}{41}{0}{5}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {5}{3}{Hoch- \& Tiefstellung}{43}{0}{5}
+\beamer@subsectionintoc {5}{2}{Symbole}{43}{0}{5}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {5}{4}{Brüche}{44}{0}{5}
+\beamer@subsectionintoc {5}{3}{Hoch- \& Tiefstellung}{44}{0}{5}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {5}{5}{Summen \& Integrale}{45}{0}{5}
+\beamer@subsectionintoc {5}{4}{Brüche}{45}{0}{5}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {5}{6}{Klammern}{46}{0}{5}
+\beamer@subsectionintoc {5}{5}{Summen \& Integrale}{46}{0}{5}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {6}{Bibliographie \& Zitieren}{47}{0}{6}
+\beamer@subsectionintoc {5}{6}{Klammern}{47}{0}{5}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {7}{Zusatz}{50}{0}{7}
+\beamer@sectionintoc {6}{Bibliographie \& Zitieren}{48}{0}{6}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {7}{1}{Einheiten}{51}{0}{7}
+\beamer@sectionintoc {7}{Zusatz}{51}{0}{7}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {7}{2}{Abkürzungen}{52}{0}{7}
+\beamer@subsectionintoc {7}{1}{Einheiten}{52}{0}{7}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {7}{3}{Fußnoten}{53}{0}{7}
+\beamer@subsectionintoc {7}{2}{Abkürzungen}{53}{0}{7}
 \defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {7}{4}{Quellcode \& Verbatim}{54}{0}{7}
+\beamer@subsectionintoc {7}{3}{Fußnoten}{54}{0}{7}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {8}{Hilfsmittel}{56}{0}{8}
+\beamer@subsectionintoc {7}{4}{Quellcode \& Verbatim}{55}{0}{7}
+\defcounter {refsection}{0}\relax 
+\beamer@sectionintoc {8}{Hilfsmittel}{57}{0}{8}

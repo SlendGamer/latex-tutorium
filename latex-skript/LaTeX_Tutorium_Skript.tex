@@ -220,7 +220,7 @@ Für das spätere Arbeiten eignen sich beide Varianten.
 \subsection{Texmaker konfigurieren}
 \begin{frame}{Texmaker konfigurieren}
 Die Konfiguration, sodass man mit der Vorlage arbeiten kann erfolgt entweder manuell... \par\medskip
-oder über die Einbindung einer Konfigurationsdatei, die auf meinem \href{}{Git-Repository} zur Verfügung steht.
+...oder über die Einbindung einer Konfigurationsdatei, die auf meinem \href{https://github.com/SlendGamer/latex-tutorium.git}{Git-Repository} zur Verfügung steht.
 \end{frame}
 
 
@@ -272,7 +272,7 @@ ja --- oder nein & \verb|ja --- oder nein| & \\ \hline
 
 \subsection{Reservierte Zeichen} \label{sub:reserved}
 \begin{frame}[fragile]{Reservierte Zeichen}
-Folgende Zeichen sind von \LaTeX{} reserviert: \texttt{\# \$ \% \^{} \& \_ \{ \} \~{} \textbackslash{}} \par\medskip
+Folgende Zeichen sind von \LaTeX{} \textbf{reserviert}: \texttt{\# \$ \% \^{} \& \_ \{ \} \~{} \textbackslash{}} \par\medskip
 Wenn sie im Text benutzt werden wollen, muss folgende Schreibweise beachtet werden: \par\medskip
 {\footnotesize
 \begin{tabular}{|c|l|l|}
@@ -298,7 +298,7 @@ Zeichen & Bedeutung & Benutzung im Text \\
 \subsection{Kommentare}
 \begin{frame}[fragile]{Kommentare}
 Kommentare können mit dem \texttt{\%}-Zeichen eingefügt werden. \\
-Alles was danach kommt, wird von \LaTeX{} nicht beachtet. \par\medskip
+Alles was danach kommt, wird von \LaTeX{} \textbf{nicht beachtet}. \par\medskip
 Es gibt \textbf{keine} Blockkommentare. \par\medskip
 \begin{lstlisting}
 % Dies ist ein Kommentar
@@ -319,7 +319,7 @@ kein Kommentar	% Kommentar % immernoch Kommentar
 \linewidth 		% Länge einer Zeile in aktueller Umgebung
 % ...
 \end{lstlisting}
-Die Parameter haben angepasste Standardwerte und müssen somit nicht verändert werden. Falls aber doch geht das so: \par\medskip
+Die Parameter haben Standardwerte und müssen somit nicht verändert werden. Falls aber doch geht das so: \par\medskip
 \begin{lstlisting}
 \setlength{\parindent}{0pt} 	% Setzt Länge zu 0pt
 \addtolength{\parindent}{10mm} % Addiert 10mm zu Länge
@@ -390,8 +390,8 @@ Weitere Abstände: \par\medskip
 
 \subsection{Umgebungen}
 \begin{frame}[fragile]{Umgebungen}
-Eine Umgebung (\texttt{environment}) muss immer geöffnet \textbf{und} geschlossen werden. \par\medskip
-In die Umgebung kommt dann der Inhalt, der von ihr beeinflusst wird. \par\medskip
+Eine Umgebung (\texttt{environment}) muss immer geöffnet \textbf{und} anschließend \textbf{geschlossen} werden. \par\medskip
+In die Umgebung kommt dann der Inhalt, den sie beeinflusst. \par\medskip
 \begin{lstlisting}
 \begin{umgebung}[optionen]
 	% dieser Text/Code wird von der Umgebung beeinflusst
@@ -415,7 +415,7 @@ Nachdem man sein erstes Test-Dokument geschrieben hat, kann man das Dokument ein
 \section{Struktur}
 \subsection{Grundgerüst}
 \begin{frame}[fragile]{Grundgerüst}
-\textbf{Jedes} \LaTeX{}-Dokument muss mindestens aus folgenden Befehlen bestehen:
+\textbf{Jedes} \LaTeX{}-Dokument muss \textbf{mindestens} aus folgenden Befehlen bestehen:
 \begin{lstlisting}
 \documentclass{article}
 	% Präambel: Konfiguration des Dokuments
@@ -443,7 +443,8 @@ Befehle sind dabei immer so aufgebaut:
 
 \subsection{Abschnitte}
 \begin{frame}[fragile]{Abschnitte}
-Abschnitte strukturieren das Dokument und werden automatisch ins Inhaltsverzeichnis eingefügt. Es gibt verschiedene Tiefen von Abschnitten in folgender Reihenfolge (höchste zu kleinste):
+Abschnitte strukturieren das Dokument und werden \textbf{automatisch} ins Inhaltsverzeichnis eingefügt.\par\medskip
+Es gibt \textbf{verschiedene} Tiefen von Abschnitten in folgender Reihenfolge (höchste zu kleinste):
 \begin{lstlisting}
 %\chapter{}
 %\section[Titel im Inhaltsverzeichnis]{Titel}
@@ -458,7 +459,8 @@ Es gibt noch weitere Abschnitte, aber diese werden sehr selten benutzt und desha
 
 \subsection{Verzeichnisse}
 \begin{frame}[fragile]{Verzeichnisse}
-In \LaTeX{} werden alle Verzeichnisse automatisch beim Kompilieren erstellt.
+In \LaTeX{} werden alle Verzeichnisse \textbf{automatisch} beim Kompilieren erstellt. \par\medskip
+Dazu müssen folgende Befehle an der gewünschten Stelle eingefügt werden:
 \begin{lstlisting}
 \maketitle			% oder \titlepage erzeugt Titelseite
 \tableofcontents 	% Hier wird das Inhaltsverzeichnis erstellt
@@ -470,14 +472,14 @@ In \LaTeX{} werden alle Verzeichnisse automatisch beim Kompilieren erstellt.
 
 \subsection{Grafiken}
 \begin{frame}[fragile]{Einfügen von Grafiken}
-\LaTeX{} unterstützt von Haus aus nur \texttt{.eps}-Dateien. \par\medskip
+\LaTeX{} unterstützt von Haus aus \textbf{nur} \texttt{.eps}-Dateien. \par\medskip
 Mit dem Paket \lstinline|\usepackage{graphicx}| können aber auch \texttt{.jpg}-, \texttt{.png}- und \texttt{.pdf}-Dateien eingebunden werden. \par\medskip
 \begin{lstlisting}
 \includegraphics[width=\textwidth]{images/Bild.png}
 % oder
 \includegraphics[scale=0.5]{images/Bild.png}
 \end{lstlisting}
-Bei der Suche nach Bildern für eine Arbeit sollten möglichst hochauflösende \texttt{jpg}- oder wenn möglich sogar \texttt{pdf}-Dateien verwendet werden, sonst leidet das Aussehen.
+Bei der Suche nach Bildern für eine Arbeit sollten \textbf{möglichst hochauflösende} \texttt{jpg}- oder wenn möglich sogar \texttt{pdf}-Dateien verwendet werden.
 \end{frame}
 
 
@@ -526,7 +528,7 @@ Für die \texttt{platzierung} gibt es folgende Angaben: (\texttt{float}-Paket n�
 \begin{frame}[fragile]{Referenzierung}
 Referenzmarken können mit \lstinline|\label{markenname}| erstellt werden. Wo der Marker im Code steht ist egal, er muss nur in der Nähe von dem Inhalt stehen, der referenziert werden soll. \par\medskip
 Um später die Marke wiederzufinden, sollte der Name gut gewählt werden.
-Folgende Nomenklatur wird häufig verwendet: \\
+Folgende \textbf{Nomenklatur} wird häufig verwendet: \\
 \begin{lstlisting}
 \label{cha:name}	% Für Chapters
 \label{sec:name}	% Für Sections
@@ -667,9 +669,9 @@ Tabellen und Abbildungen haben dabei ihre eigenen Zähler.
 \begin{frame}[fragile]{Listen}
 Es gibt drei verschiedene Listenumgebungen:
 	\begin{itemize}
-		\item \texttt{itemize}
-		\item \texttt{enumerate}
-		\item \texttt{description}
+		\item \texttt{itemize}: Stichpunktform
+		\item \texttt{enumerate}: Aufzählungsform
+		\item \texttt{description}: Liste mit Beschreibungen
 	\end{itemize}
 \begin{columns}
 	\begin{column}{0.31\textwidth} % itemize
@@ -736,7 +738,7 @@ Es gibt drei verschiedene Listenumgebungen:
 \section{Textgestaltung}
 \subsection{Textgrößen}
 \begin{frame}[fragile]{Textgrößen}
-Durch verschiedene Größen, können z.B. Überschriften vom restlichen Text getrennt werden. Die Größen werden fast immer automatisch durch \LaTeX{} festgelegt. \par\medskip
+Durch verschiedene Größen, können z.B. Überschriften vom restlichen Text abgesetzt werden.\par\medskip
 \begin{tabular}{ll}
 \verb|\tiny| & {\tiny Mikroschrift} \\
 \verb|\scriptsize| & {\scriptsize Tiefstellung} \\
@@ -809,10 +811,10 @@ für \textbf{rechtsbündigen} Text \lstinline|\begin{flushright} ... \end{flushr
 \section{Mathematische Ausdrücke}
 \begin{frame}[fragile]{Mathematische Ausdrücke}
 Um diese zu benutzen ist das \texttt{amsmath}-Paket nützlich. \par\medskip
-\LaTeX{} unterscheidet zwei Arten der Formeleingabe:
+\LaTeX{} unterscheidet zwei \textbf{Arten der Formeleingabe}:
 \begin{itemize}
-	\item Inline: innheralb einer Zeile im Text
-	\item Display: als eigene Gleichung vom Text getrennt
+	\item \textbf{Inline}: innheralb einer Zeile im Text
+	\item \textbf{Display}: als eigene Gleichung vom Text getrennt
 \end{itemize} \par\bigskip
 
 \begin{columns}
@@ -873,7 +875,7 @@ verwendet werden.
 
 
 \begin{frame}[fragile]{\texttt{align}-Umgebung}
-Die \texttt{align}-Umgebung sorgt dafür, dass mehrere Gleichungen übereinander an einem Zeichen angeordnet werden können. Dazu wird das \texttt{\&}-Zeichen verwendet.
+Die \texttt{align}-Umgebung sorgt dafür, dass mehrere Gleichungen \textbf{übereinander} an einem Zeichen angeordnet werden können. Dazu wird das \texttt{\&}-Zeichen verwendet. \par\medskip
 \begin{columns}
 	\begin{column}{0.48\textwidth}
 \begin{lstlisting}
@@ -898,7 +900,7 @@ Bei nicht gewünschter Nummerierung gilt wieder: \\
 \subsection{Symbole}
 \begin{frame}[fragile]{Symbole}
 Es gibt \textit{sehr} viele Symbole in \LaTeX{}. \par\medskip
-Folgende Symbole können direkt eingegeben werden: \par\medskip
+Folgende Symbole können \textbf{direkt} eingegeben werden: \par\medskip
 \verb#+ - = ! / ( ) [ ] < > | ' :# \par\medskip
 Es ist nützlich ein \textit{Cheat-Sheet} zu benutzen oder die gewünschten Befehle einfach zu googeln.
 Im \href{https://en.wikibooks.org/wiki/LaTeX/Mathematics}{Wikibooks} (oder \href{https://en.wikipedia.org/wiki/List_of_mathematical_symbols_by_subject}{Wikipedia}) ist eine Liste an Symbolen zu finden. \par\medskip
@@ -908,7 +910,7 @@ Im \href{https://en.wikibooks.org/wiki/LaTeX/Mathematics}{Wikibooks} (oder \href
 
 \subsection{Hoch- \& Tiefstellung}
 \begin{frame}[fragile]{Hoch- \& Tiefstellung}
-Ausdrücke können mit \verb|^| hoch- und mit \verb|_| tiefgestellt werden. \\
+Ausdrücke können mit \verb|^| \textbf{hoch}- und mit \verb|_| \textbf{tiefgestellt} werden. \\
 Wenn Ausdrücke aus mehr als einem Zeichen bestehen muss dieser mit \verb|{...}| eingeklammert werden. \par\medskip
 \begin{columns}
 	\begin{column}{0.48\textwidth}
@@ -1043,7 +1045,7 @@ Die Einträge können über Literatur-Tools, Online oder auch manuell erstellt w
 \subsection{Einheiten}
 \begin{frame}[fragile]{SI-Einheiten}
 Mithilfe des \texttt{siunitx}-Pakets können SI-Einheiten und Zahlen im korrekten Format eingegeben werden. Die Benutzung ist \href{https://www.namsu.de/Extra/pakete/Siunitx.html}{hier} weiter erklärt. \par\medskip
-\begin{minipage}{0.7\textwidth}
+\begin{minipage}{0.6\textwidth}
 \begin{lstlisting}
 \num{123,45} % Zahlen
 
@@ -1059,28 +1061,36 @@ Mithilfe des \texttt{siunitx}-Pakets können SI-Einheiten und Zahlen im korrekte
 \end{lstlisting}
 \end{minipage} \hfil
 \begin{minipage}{0.28\textwidth}
-\num{123,45} \\
-\num{123e45} \\
-\si{\volt\second\per\ampere} \\
-\SI{100}{\milli\volt} \\
-\SIlist{1;3;8}{\newton} \\
-\SIrange{1}{10}{\newton}
+\vfil
+\num{123,45} \\ \vfil
+\num{123e45} \\ \vfil
+\si{\volt\second\per\ampere} \\ \vfil
+\SI{100}{\milli\volt} \\ \vfil
+\SIlist{1;3;8}{\newton} \\ \vfil
+\SIrange{1}{10}{\newton} \\ \vfil
 \end{minipage}
 \end{frame}
 
 
 \subsection{Abkürzungen}
+%\begin{frame}[fragile]{Abkürzungen}
+%Mit dem \texttt{glossaries}-Paket können Glossare, Indexverzeichnisse und Abkürzungsverzeichnisse erzeugt werden. Eine neue Abkürzung kann mit \lstinline|\newacronym{kürzel}{kurzform}{langform}| erzeugt werden. \par\medskip
+%Es ist gut, die Einträge in eine extra Datei auszulagern (z.B. \texttt{abkuerzungen.tex}) \par\medskip
+%Um eine Abkürzung zu benutzen, nimmt man den Befehl \lstinline|\gls{kürzel}|. Wenn die Abkürzung das erste mal verwendet wird, wird automatisch sowohl die Kurz- als auch die Langform ausgegeben. \par\medskip
+%Das Abkürzungsverzeichnis wird mit \lstinline|\printglossaries| erzeugt.
+%\end{frame}
+
 \begin{frame}[fragile]{Abkürzungen}
-Mit dem \texttt{glossaries}-Paket können Glossare, Indexverzeichnisse und Abkürzungsverzeichnisse erzeugt werden. Eine neue Abkürzung kann mit \lstinline|\newacronym{kürzel}{kurzform}{langform}| erzeugt werden. \par\medskip
-Es ist gut, die Einträge in eine extra Datei auszulagern (z.B. \texttt{abkuerzungen.tex}) \par\medskip
-Um eine Abkürzung zu benutzen, nimmt man den Befehl \lstinline|\gls{kürzel}|. Wenn die Abkürzung das erste mal verwendet wird, wird automatisch sowohl die Kurz- als auch die Langform ausgegeben. \par\medskip
-Das Abkürzungsverzeichnis wird mit \lstinline|\printglossaries| erzeugt.
+Mit dem \texttt{nomencl}-Paket können Abkürzungsverzeichnisse erstellt werden. \par\medskip
+Eine neue Abkürzung kann mit \lstinline|\nomenclature[sortierzeichen]{abkürzung}{langform}| erzeugt werden. \par\medskip
+Leider ist mit diesem Paket keine Referenzierung möglich, dafür gibt es \texttt{glossaries}.
 \end{frame}
 
 
 \subsection{Fußnoten}
 \begin{frame}[fragile]{Fußnoten}
-Folgt noch
+Fußnoten \footnote{Dies ist eine Fußnote} können sehr einfach über \lstinline|\footnote{Dies ist eine Fußnote}| erzeugt werden. \par\medskip
+Diese können auch verlinkt werden, aber das macht meistens keinen Sinn, denn sie treten sowieso nur innerhalb einer Seite auf.
 \end{frame}
 
 
@@ -1147,5 +1157,16 @@ Die Sprache kann auch global in der Präambel (\lstinline|\lstset{language=...}|
 %\nocite{*}					% Alle Literatureinträge einblenden
 %\printbibliography			% Erstellen des Literaturverzeichnisses
 %\end{frame}
+
+\section*{Ende}
+\begin{frame}
+\begin{center}
+\Huge
+\vfill
+\textbf{\textit{Vielen Dank für}} \\ \vfill
+\textbf{\textit{Ihre}} \\ \vfill
+\textbf{\textit{Aufmerksamkeit!}} \\ \vfill
+\end{center}
+\end{frame}
 
 \end{document}
